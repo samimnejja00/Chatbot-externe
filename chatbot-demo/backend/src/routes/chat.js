@@ -77,6 +77,16 @@ function isPlatformFeatureQuery(message) {
   return keywords.some(k => normalized.includes(k));
 }
 
+// Fonction pour détecter l'intention de contact ou agence
+function isContactIntent(message) {
+  const normalized = message.toLowerCase().trim();
+  const contactKeywords = [
+    'contact', 'appel', 'téléphone', 'numéro', 'joindre', 'appeler',
+    'agence', 'adresse', 'où', 'trouver', 'localisation', 'siège', 'proche'
+  ];
+  return contactKeywords.some(keyword => normalized.includes(keyword));
+}
+
 // Fonction pour détecter l'intention d'authentification (connexion/inscription)
 function isAuthIntent(message) {
   const normalized = message.toLowerCase().trim();
@@ -147,6 +157,18 @@ router.post('/message', async (req, res) => {
         actions: [
           { label: "Se connecter", action: "navigate", target: "/login" },
           { label: "S'inscrire", action: "navigate", target: "/register" }
+        ]
+      });
+    }
+
+    // Vérifier si l'utilisateur veut contacter COMAR ou trouver une agence
+    if (isContactIntent(sanitizedMessage)) {
+      return res.json({
+        type: 'contact_info',
+        response: "Besoin de nous joindre ou de nous rendre visite ? Voici comment nous contacter rapidement. \n\nNotre service client est à votre écoute !",
+        actions: [
+          { label: "📞 Appeler le 82 100 001", action: "call", target: "82100001" },
+          { label: "📍 Trouver une agence", action: "link", target: "https://www.google.com/maps/search/COMAR+Assurances" }
         ]
       });
     }
