@@ -87,6 +87,21 @@ function isContactIntent(message) {
   return contactKeywords.some(keyword => normalized.includes(keyword));
 }
 
+// Fonction pour détecter l'intention de sinistre (urgence)
+function isSinistreIntent(message) {
+  const normalized = message.toLowerCase().trim();
+  const keywords = ['accident', 'vol', 'sinistre', 'déclarer', 'bris', 'incendie', 'dommage', 'panne'];
+  return keywords.some(k => normalized.includes(k));
+}
+
+// Fonction pour détecter la demande de produits
+function isProductsIntent(message) {
+  const normalized = message.toLowerCase().trim();
+  const keywords = ['produit', 'assurance', 'type', 'offre', 'quels', 'liste', 'proposez'];
+  // On vérifie si c'est une question générale sur les types d'assurances
+  return (keywords.some(k => normalized.includes(k)) && !normalized.includes('auto') && !normalized.includes('santé') && !normalized.includes('habit'));
+}
+
 // Fonction pour détecter l'intention d'authentification (connexion/inscription)
 function isAuthIntent(message) {
   const normalized = message.toLowerCase().trim();
@@ -157,6 +172,32 @@ router.post('/message', async (req, res) => {
         actions: [
           { label: "Se connecter", action: "navigate", target: "/login" },
           { label: "S'inscrire", action: "navigate", target: "/register" }
+        ]
+      });
+    }
+
+    // RÉFLEXE URGENCE : Détection de sinistre
+    if (isSinistreIntent(sanitizedMessage)) {
+      return res.json({
+        type: 'emergency',
+        response: "Je suis désolé d'apprendre cela. Ne vous inquiétez pas, COMAR est là pour vous accompagner. \n\nIl est important de déclarer votre sinistre rapidement pour une prise en charge optimale.",
+        actions: [
+          { label: "🚨 DÉCLARER UN SINISTRE", action: "navigate", target: "/login", priority: 'high' },
+          { label: "📞 Assistance 24h/24", action: "call", target: "82100001" }
+        ]
+      });
+    }
+
+    // RÉFLEXE CATALOGUE : Détection de demande de produits
+    if (isProductsIntent(sanitizedMessage)) {
+      return res.json({
+        type: 'product_catalog',
+        response: "COMAR propose une large gamme de solutions adaptées à vos besoins. Laquelle vous intéresse le plus ?",
+        actions: [
+          { label: "🚗 Auto", action: "suggestion", target: "Assurance Auto" },
+          { label: "🏠 Habitation", action: "suggestion", target: "Assurance Habitation" },
+          { label: "🏥 Santé", action: "suggestion", target: "Assurance Santé" },
+          { label: "✈️ Voyage", action: "suggestion", target: "Assurance Voyage" }
         ]
       });
     }
