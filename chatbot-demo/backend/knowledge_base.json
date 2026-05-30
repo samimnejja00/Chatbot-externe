@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_entries": 106,
+    "total_entries": 113,
     "lexique_count": 84,
     "documents_count": 21,
     "generated_at": "2026-04-06",
@@ -9,62 +9,156 @@
   "entries": [
     {
       "type": "custom",
-      "title": "PrestaTrack - Documentation Complète de l'Interface",
-      "content": "PrestaTrack est la plateforme digitale de COMAR Assurances pour la gestion des demandes de prestations. L'interface permet aux clients de : créer des dossiers de prestation (retrait, avance, transfert), soumettre des pièces justificatives, consulter le statut des dossiers en temps réel, et suivre l'historique des actions. Pour les agents internes, la plateforme offre : la gestion des rôles et permissions, le traitement métier avec calcul des montants, la vérification de conformité, et la gestion financière jusqu'à la clôture. Le système utilise une architecture REST API avec authentification sécurisée, validation en temps réel des données, et contrôle d'accès basé sur les rôles (RBAC). Les dossiers passent par plusieurs statuts : Créé, Soumis, En cours de traitement, Traité, et Clôturé. Chaque changement est historisé avec traçabilité complète.",
+      "title": "PrestaTrack - Votre Espace Client Digital COMAR",
+      "content": "PrestaTrack est la nouvelle plateforme en ligne de COMAR Assurances dédiée à simplifier la vie de nos assurés. Cet espace client vous permet de gérer vos demandes de prestations d'assurance Vie et Capitalisation en toute autonomie. Les fonctionnalités clés incluent : 1. Création de demande simplifiée (plus besoin de se déplacer), 2. Téléchargement sécurisé de vos pièces justificatives, 3. Suivi en temps réel de l'état de votre dossier grâce à une barre de progression, 4. Historique complet de vos échanges et actions. PrestaTrack est accessible 24h/24 et 7j/7 pour vous offrir une transparence totale sur vos remboursements.",
       "url": "http://localhost:3000",
-      "keywords": ["prestatrack", "interface", "documentation", "fonctionnalités", "dossier", "prestation", "traitement", "statut", "workflow"],
-      "searchable_text": "prestatrack est la plateforme digitale de comar assurances pour la gestion des demandes de prestations l interface permet aux clients de creer des dossiers de prestation retrait avance transfert soumettre des pieces justificatives consulter le statut des dossiers en temps reel et suivre l historique des actions pour les agents internes la plateforme offre la gestion des roles et permissions le traitement metier avec calcul des montants la verification de conformite et la gestion financiere jusqu a la cloture le systeme utilise une architecture rest api avec authentification securisee validation en temps reel des donnees et controle d acces base sur les roles rbac les dossiers passent par plusieurs statuts cree soumis en cours de traitement traite et cloture chaque changement est historise avec tracabilite complete"
+      "keywords": [
+        "prestatrack",
+        "espace client",
+        "suivi",
+        "dossier",
+        "remboursement",
+        "assurance",
+        "comar",
+        "ligne"
+      ],
+      "searchable_text": "prestatrack est la nouvelle plateforme en ligne de comar assurances dediee a simplifier la vie de nos accuses cet espace client vous permet de gerer vos demandes de prestations d assurance vie et capitalisation en toute autonomie les fonctionnalites cles incluent 1 creation de demande simplifiee plus besoin de se deplacer 2 telechargement securise de vos pieces justificatives 3 suivi en temps reel de l etat de votre dossier grace a une barre de progression 4 historique complet de vos echanges et actions prestatrack est accessible 24h 24 et 7j 7 pour vous offrir une transparence totale sur vos remboursements"
+    },
+    {
+      "type": "custom",
+      "title": "Comment utiliser PrestaTrack pour mes dossiers ?",
+      "content": "Utiliser PrestaTrack est simple et rapide : 1. Connectez-vous ou créez votre compte avec votre numéro de police d'assurance. 2. Cliquez sur 'Nouvelle Demande' pour initier un dossier. 3. Joignez les documents demandés. 4. Suivez l'évolution depuis votre tableau de bord. Si vous voyez le statut 'En attente de pièces', il vous suffit de téléverser les documents manquants directement en ligne. Pour toute question sur un dossier spécifique, connectez-vous pour obtenir une réponse personnalisée de notre assistant.",
+      "url": "http://localhost:3000/login",
+      "keywords": [
+        "utiliser",
+        "compte",
+        "nouvelle demande",
+        "pièces justificatives",
+        "téléverser",
+        "suivi",
+        "statut"
+      ],
+      "searchable_text": "utiliser prestatrack est simple et rapide 1 connectez vous ou creez votre compte avec votre numero de police d assurance 2 cliquez sur nouvelle demande pour initier un dossier 3 joignez les documents demandes 4 suivez l evolution depuis votre tableau de bord si vous voyez le statut en attente de pieces il vous suffit de televerser les documents manquants directement en ligne pour toute question sur un dossier specifique connectez vous pour obtenir une reponse personnalisee de notre assistant"
+    },
+    {
+      "type": "custom",
+      "title": "Workflow et Cycle de Vie d'un Dossier dans PrestaTrack",
+      "content": "Le cycle de vie d'un dossier dans PrestaTrack est rigoureusement structuré pour assurer sécurité et efficacité. Étapes : 1. Création : Le dossier est initié par le client ou un agent RC (Statut: EN_COURS). 2. Soumission : Une fois les pièces jointes, il est transmis au service Prestation (Statut: A_TRAITER). 3. Traitement : Le service Prestation calcule le montant et vérifie la quittance (Statut: EN_COURS_PRESTATION). 4. Validation : Le dossier est envoyé au service Finance pour le règlement (Statut: EN_COURS_FINANCE). 5. Clôture : Après paiement, le dossier est archivé (Statut: CLOTURE). À tout moment, le client peut interagir avec le chatbot pour connaître l'étape actuelle de sa demande.",
+      "url": "http://localhost:3000/home",
+      "keywords": [
+        "workflow",
+        "cycle de vie",
+        "étapes",
+        "statut",
+        "dossier",
+        "rc",
+        "prestation",
+        "finance",
+        "clôture"
+      ],
+      "searchable_text": "le cycle de vie d un dossier dans prestatrack est rigoureusement structure pour assurer securite et efficacite etapes 1 creation le dossier est initie par le client ou un agent rc statut en cours 2 soumission une fois les pieces jointes il est transmis au service prestation statut a traiter 3 traitement le service prestation calcule le montant et verifie la quittance statut en cours prestation 4 validation le dossier est envoye au service finance pour le reglement statut en cours finance 5 cloture apres paiement le dossier est archive statut cloture a tout moment le client peut interagir avec le chatbot pour connaitre l etape actuelle de sa demande"
     },
     {
       "type": "custom",
       "title": "Workflow des Dossiers - PrestaTrack",
-      "content": "Le workflow d'un dossier de prestation sur PrestaTrack comprend les étapes suivantes : 1) Création du dossier par le client ou agent avec saisie des informations de base et upload des pièces justificatives. 2) Soumission au service Prestation pour traitement. 3) Traitement métier : calcul du montant, vérification de conformité, validation par le service Prestation. 4) Transmission au service Finance pour vérification financière et préparation du paiement. 5) Paiement et clôture du dossier. Les statuts possibles sont : Créé (dossier initial), Soumis (transmis à Prestation), En cours de traitement (analyse en cours), Traité (validé par Prestation), En attente de paiement (chez Finance), Payé (règlement effectué), Clôturé (processus terminé), et Rejeté (non conforme). Le système garantit la traçabilité complète avec historique de toutes les actions.",
+      "content": "Le workflow d'un dossier de prestation sur PrestaTrack comprend les Ã©tapes suivantes : 1) CrÃ©ation du dossier par le client ou agent avec saisie des informations de base et upload des piÃ¨ces justificatives. 2) Soumission au service Prestation pour traitement. 3) Traitement mÃ©tier : calcul du montant, vÃ©rification de conformitÃ©, validation par le service Prestation. 4) Transmission au service Finance pour vÃ©rification financiÃ¨re et prÃ©paration du paiement. 5) Paiement et clÃ´ture du dossier. Les statuts possibles sont : CrÃ©Ã© (dossier initial), Soumis (transmis Ã  Prestation), En cours de traitement (analyse en cours), TraitÃ© (validÃ© par Prestation), En attente de paiement (chez Finance), PayÃ© (rÃ¨glement effectuÃ©), ClÃ´turÃ© (processus terminÃ©), et RejetÃ© (non conforme). Le systÃ¨me garantit la traÃ§abilitÃ© complÃ¨te avec historique de toutes les actions.",
       "url": "http://localhost:3000/dashboard",
-      "keywords": ["workflow", "dossier", "statut", "prestation", "traitement", "finance", "validation", "cycle de vie"],
+      "keywords": [
+        "workflow",
+        "dossier",
+        "statut",
+        "prestation",
+        "traitement",
+        "finance",
+        "validation",
+        "cycle de vie"
+      ],
       "searchable_text": "le workflow d un dossier de prestation sur prestatrack comprend les etapes suivantes 1 creation du dossier par le client ou agent avec saisie des informations de base et upload des pieces justificatives 2 soumission au service prestation pour traitement 3 traitement metier calcul du montant verification de conformite validation par le service prestation 4 transmission au service finance pour verification financiere et preparation du paiement 5 paiement et cloture du dossier les statuts possibles sont cree dossier initial soumis transmis a prestation en cours de traitement analyse en cours traite valide par prestation en attente de paiement chez finance paye reglement effectue cloture processus termine et rejete non conforme le systeme garantit la tracabilite complete avec historique de toutes les actions"
     },
     {
       "type": "custom",
       "title": "PrestaTrack - Espace Client COMAR",
-      "content": "PrestaTrack est la plateforme dédiée de COMAR Assurances pour la gestion des prestations. C'est un espace indépendant accessible sur http://localhost:3000 qui nécessite la création d'un compte spécifique (distinct du site institutionnel). Une fois connecté, vous pouvez suivre vos demandes, en soumettre de nouvelles et consulter vos documents.",
+      "content": "PrestaTrack est la plateforme dÃ©diÃ©e de COMAR Assurances pour la gestion des prestations. C'est un espace indÃ©pendant accessible sur http://localhost:3000 qui nÃ©cessite la crÃ©ation d'un compte spÃ©cifique (distinct du site institutionnel). Une fois connectÃ©, vous pouvez suivre vos demandes, en soumettre de nouvelles et consulter vos documents.",
       "url": "http://localhost:3000",
-      "keywords": ["prestatrack", "espace client", "plateforme", "dédiée", "indépendant", "compte", "prestations"],
+      "keywords": [
+        "prestatrack",
+        "espace client",
+        "plateforme",
+        "dÃ©diÃ©e",
+        "indÃ©pendant",
+        "compte",
+        "prestations"
+      ],
       "searchable_text": "prestatrack est la plateforme dediee de comar assurances pour la gestion des prestations c est un espace independant accessible sur http localhost 3000 qui necessite la creation d un compte specifique distinct du site institutionnel une fois connecte vous pouvez suivre vos demandes en soumettre de nouvelles et consulter vos documents"
     },
     {
       "type": "custom",
       "title": "Comment se connecter - Guide",
-      "content": "Pour vous connecter à votre espace client PrestaTrack : Cliquez sur le bouton 'Se connecter' en haut de la page. Saisissez votre adresse email et votre mot de passe. Cliquez sur 'Connexion'. Si vous avez oublié votre mot de passe, cliquez sur 'Mot de passe oublié' pour le réinitialiser. Si vous n'avez pas encore de compte, cliquez sur 'Créer un compte' pour vous inscrire.",
+      "content": "Pour vous connecter Ã  votre espace client PrestaTrack : Cliquez sur le bouton 'Se connecter' en haut de la page. Saisissez votre adresse email et votre mot de passe. Cliquez sur 'Connexion'. Si vous avez oubliÃ© votre mot de passe, cliquez sur 'Mot de passe oubliÃ©' pour le rÃ©initialiser. Si vous n'avez pas encore de compte, cliquez sur 'CrÃ©er un compte' pour vous inscrire.",
       "url": "http://localhost:3000/login",
-      "keywords": ["connexion", "connecter", "login", "se connecter", "email", "mot de passe", "oublié", "accès"],
+      "keywords": [
+        "connexion",
+        "connecter",
+        "login",
+        "se connecter",
+        "email",
+        "mot de passe",
+        "oubliÃ©",
+        "accÃ¨s"
+      ],
       "searchable_text": "pour vous connecter a votre espace client prestatrack cliquez sur le bouton se connecter en haut de la page saisissez votre adresse email et votre mot de passe cliquez sur connexion si vous avez oublie votre mot de passe cliquez sur mot de passe oublie pour le reinitialiser si vous n avez pas encore de compte cliquez sur creer un compte pour vous inscrire"
     },
     {
       "type": "custom",
-      "title": "Comment créer un compte - Inscription",
-      "content": "Pour créer un compte sur PrestaTrack : Cliquez sur 'Créer un compte' ou 'S'inscrire'. Remplissez le formulaire avec : votre nom complet, votre adresse email valide, un mot de passe sécurisé (minimum 6 caractères), et votre numéro de contrat d'assurance (format: 12345678-9). Acceptez les conditions d'utilisation. Cliquez sur 'Créer mon compte'. Vous recevrez un email de confirmation. Une fois inscrit, vous pourrez immédiatement vous connecter et gérer vos demandes.",
+      "title": "Comment crÃ©er un compte - Inscription",
+      "content": "Pour crÃ©er un compte sur PrestaTrack : Cliquez sur 'CrÃ©er un compte' ou 'S'inscrire'. Remplissez le formulaire avec : votre nom complet, votre adresse email valide, un mot de passe sÃ©curisÃ© (minimum 6 caractÃ¨res), et votre numÃ©ro de contrat d'assurance (format: 12345678-9). Acceptez les conditions d'utilisation. Cliquez sur 'CrÃ©er mon compte'. Vous recevrez un email de confirmation. Une fois inscrit, vous pourrez immÃ©diatement vous connecter et gÃ©rer vos demandes.",
       "url": "http://localhost:3000/register",
-      "keywords": ["inscription", "créer compte", "s'inscrire", "register", "nouveau compte", "formulaire", "numéro contrat"],
+      "keywords": [
+        "inscription",
+        "crÃ©er compte",
+        "s'inscrire",
+        "register",
+        "nouveau compte",
+        "formulaire",
+        "numÃ©ro contrat"
+      ],
       "searchable_text": "pour creer un compte sur prestatrack cliquez sur creer un compte ou s inscrire remplissez le formulaire avec votre nom complet votre adresse email valide un mot de passe securise minimum 6 caracteres et votre numero de contrat d assurance format 12345678 9 acceptez les conditions d utilisation cliquez sur creer mon compte vous recevrez un email de confirmation une fois inscrit vous pourrez immediatement vous connecter et gerer vos demandes"
     },
-    
     {
       "type": "document",
-      "title": "COMAR - Présentation générale",
-      "content": "COMAR (Compagnie d'Assurances et de Réassurances) est une compagnie d'assurance tunisienne fondée en 1973. C'est l'un des leaders du marché de l'assurance en Tunisie, offrant une large gamme de produits d'assurance pour les particuliers et les entreprises. COMAR propose des assurances auto, habitation, santé, voyage, ainsi que des solutions pour les professionnels. La compagnie se distingue par son réseau de plus de 80 agences à travers la Tunisie et son engagement envers la qualité de service et l'innovation. Contact: 82 100 001 ou www.comar.tn",
+      "title": "COMAR - PrÃ©sentation gÃ©nÃ©rale",
+      "content": "COMAR (Compagnie d'Assurances et de RÃ©assurances) est une compagnie d'assurance tunisienne fondÃ©e en 1973. C'est l'un des leaders du marchÃ© de l'assurance en Tunisie, offrant une large gamme de produits d'assurance pour les particuliers et les entreprises. COMAR propose des assurances auto, habitation, santÃ©, voyage, ainsi que des solutions pour les professionnels. La compagnie se distingue par son rÃ©seau de plus de 80 agences Ã  travers la Tunisie et son engagement envers la qualitÃ© de service et l'innovation. Contact: 82 100 001 ou www.comar.tn",
       "url": "https://www.comar.tn",
       "keywords": [
-        "comar", "compagnie", "assurances", "reassurances", "tunisie", "leader",
-        "marche", "assurance", "particuliers", "entreprises", "auto", "habitation",
-        "sante", "voyage", "professionnels", "agences", "qualite", "service",
-        "innovation", "contact", "fondee", "1973"
+        "comar",
+        "compagnie",
+        "assurances",
+        "reassurances",
+        "tunisie",
+        "leader",
+        "marche",
+        "assurance",
+        "particuliers",
+        "entreprises",
+        "auto",
+        "habitation",
+        "sante",
+        "voyage",
+        "professionnels",
+        "agences",
+        "qualite",
+        "service",
+        "innovation",
+        "contact",
+        "fondee",
+        "1973"
       ],
       "searchable_text": "comar compagnie d assurances et de reassurances est une compagnie d assurance tunisienne fondee en 1973 c est l un des leaders du marche de l assurance en tunisie offrant une large gamme de produits d assurance pour les particuliers et les entreprises comar propose des assurances auto habitation sante voyage ainsi que des solutions pour les professionnels la compagnie se distingue par son reseau de plus de 80 agences a travers la tunisie et son engagement envers la qualite de service et l innovation contact 82 100 001 ou www comar tn"
     },
     {
       "type": "lexique",
       "title": "A",
-      "content": "Courrier par lequel l'assureur vous réclame le paiement de votre prime d'assurance. Vous avez, au terme du code des Assurances, 10 jours pour régler votre prime à compter de la date d'échéance. Lorsque les conditions initiales de votre contrat sont revues: déménagement, changement de véhicule... votre assureur émet un avenant (un remplacement), afin de valider votre nouvelle situation et vos garanties. L'avenant, tout comme le contrat initial, doit être signé par l'assuré et l'assureur, car l'avenant représente une preuve de la modification du contrat. Il évite la rédaction complète d'un nouveau contrat. Ce document vaut comme justificatif d'assurance pendant sa période de validité. Sur le territoire national.",
+      "content": "Courrier par lequel l'assureur vous rÃ©clame le paiement de votre prime d'assurance. Vous avez, au terme du code des Assurances, 10 jours pour rÃ©gler votre prime Ã  compter de la date d'Ã©chÃ©ance. Lorsque les conditions initiales de votre contrat sont revues: dÃ©mÃ©nagement, changement de vÃ©hicule... votre assureur Ã©met un avenant (un remplacement), afin de valider votre nouvelle situation et vos garanties. L'avenant, tout comme le contrat initial, doit Ãªtre signÃ© par l'assurÃ© et l'assureur, car l'avenant reprÃ©sente une preuve de la modification du contrat. Il Ã©vite la rÃ©daction complÃ¨te d'un nouveau contrat. Ce document vaut comme justificatif d'assurance pendant sa pÃ©riode de validitÃ©. Sur le territoire national.",
       "url": "https://www.comar.tn/lexique/a",
       "keywords": [
         "courrier",
@@ -141,7 +235,7 @@
     {
       "type": "lexique",
       "title": "B",
-      "content": "Personne physique ou morale au profit de laquelle l'assurance a été contractée. Elle peut être nommément désignée aux conditions particulières du contrat ou bien apparaître dans les conditions générales sous les termes de: conjoint survivant, d'ayants droit, ou encore d’héritier né ou à naître...Le bénéficiaire recevra l'indemnité due par l'assureur en cas de réalisation du risque assuré. Ce sont les constructions et leurs dépendances (immeuble par nature) à l'exception du terrain. C'est le terme qui désigne le système par lequel les assurés se voient accorder des réductions ou des majorations en fonction de la survenance (ou non) de sinistre. C'est un élément central dans la tarification de votre véhicule dans la mesure où l'application de ce coefficient peut diminuer de moitié votre cotisation (0.50 de bonus). C'est \"une note\" qui vous est personnelle et qui reflète votre historique en tant que conducteur.",
+      "content": "Personne physique ou morale au profit de laquelle l'assurance a Ã©tÃ© contractÃ©e. Elle peut Ãªtre nommÃ©ment dÃ©signÃ©e aux conditions particuliÃ¨res du contrat ou bien apparaÃ®tre dans les conditions gÃ©nÃ©rales sous les termes de: conjoint survivant, d'ayants droit, ou encore dâhÃ©ritier nÃ© ou Ã  naÃ®tre...Le bÃ©nÃ©ficiaire recevra l'indemnitÃ© due par l'assureur en cas de rÃ©alisation du risque assurÃ©. Ce sont les constructions et leurs dÃ©pendances (immeuble par nature) Ã  l'exception du terrain. C'est le terme qui dÃ©signe le systÃ¨me par lequel les assurÃ©s se voient accorder des rÃ©ductions ou des majorations en fonction de la survenance (ou non) de sinistre. C'est un Ã©lÃ©ment central dans la tarification de votre vÃ©hicule dans la mesure oÃ¹ l'application de ce coefficient peut diminuer de moitiÃ© votre cotisation (0.50 de bonus). C'est \"une note\" qui vous est personnelle et qui reflÃ¨te votre historique en tant que conducteur.",
       "url": "https://www.comar.tn/lexique/b",
       "keywords": [
         "personne",
@@ -229,7 +323,7 @@
     {
       "type": "lexique",
       "title": "C",
-      "content": "Tous les événements qui revêtent par leur importance ou leur étendue un risque catastrophique. Ce sont certains événements naturels, tels que les cyclones, les inondations, les secousses sismiques. Ils sont imprévisibles. Pour que le contrat d'assurance fonctionne et que la garantie soit accordée dans le cadre de ces événements il faut que l'état de catastrophe naturelle soit constaté par un arrêté Interministériel publié au Journal Officiel. Disposition particulière d'une police d'assurance détaillant le fonctionnement d'une garantie, ou bien précisant la nature des engagements réciproques de l'assureur et de l'assuré. Ensemble des lois et des règlements qui doivent être respectés par les sociétés d'assurances et qui régissent les relations assureurs/assurés.",
+      "content": "Tous les Ã©vÃ©nements qui revÃªtent par leur importance ou leur Ã©tendue un risque catastrophique. Ce sont certains Ã©vÃ©nements naturels, tels que les cyclones, les inondations, les secousses sismiques. Ils sont imprÃ©visibles. Pour que le contrat d'assurance fonctionne et que la garantie soit accordÃ©e dans le cadre de ces Ã©vÃ©nements il faut que l'Ã©tat de catastrophe naturelle soit constatÃ© par un arrÃªtÃ© InterministÃ©riel publiÃ© au Journal Officiel. Disposition particuliÃ¨re d'une police d'assurance dÃ©taillant le fonctionnement d'une garantie, ou bien prÃ©cisant la nature des engagements rÃ©ciproques de l'assureur et de l'assurÃ©. Ensemble des lois et des rÃ¨glements qui doivent Ãªtre respectÃ©s par les sociÃ©tÃ©s d'assurances et qui rÃ©gissent les relations assureurs/assurÃ©s.",
       "url": "https://www.comar.tn/lexique/c",
       "keywords": [
         "evenements",
@@ -302,7 +396,7 @@
     {
       "type": "lexique",
       "title": "D",
-      "content": "Le propriétaire qui doit faire réaliser des travaux n'est pas toujours en mesure d'apprécier le parfait achèvement de ces mêmes travaux, (et si la construction est correctement exécutée). Il est donc nécessaire qu'un certain temps s'écoule pour que le nouvel édifice ait le temps de \"travailler\" et de se tasser sur ses fondations. Le législateur a donc estimé nécessaire d'imposer un délai de garantie de dix ans aux architectes et aux entrepreneurs. Cette garantie décennale est l'obligation de garantir, pendant dix ans, la bonne exécution et la bonne solidité de l'ouvrage. Sanction prise par l'assureur à l'encontre de son assuré pour des faits postérieurs au sinistre. Exemples de causes de déchéance: les déclarations mensongères, la condamnation de l'assuré pour conduite en état d'ivresse... Tous les cas de déchéance doivent être prévus dans votre police d'assurance, ils sont inopposables à la victime qui doit être indemnisée de ses dommages. L'assureur se retournera contre son assuré pour exiger le remboursement des sommes versées. Acte par lequel l'assuré déclare à son assureur le sinistres qu'il cause ou qu'il subit. La déclaration doit se faire dans des délais qui varient en fonction de la nature des sinistres (en cas de non respect de ces délais, sauf cas fortuit ou de force majeure, l'assureur est en droit de refuser la prise en charge du sinistre)",
+      "content": "Le propriÃ©taire qui doit faire rÃ©aliser des travaux n'est pas toujours en mesure d'apprÃ©cier le parfait achÃ¨vement de ces mÃªmes travaux, (et si la construction est correctement exÃ©cutÃ©e). Il est donc nÃ©cessaire qu'un certain temps s'Ã©coule pour que le nouvel Ã©difice ait le temps de \"travailler\" et de se tasser sur ses fondations. Le lÃ©gislateur a donc estimÃ© nÃ©cessaire d'imposer un dÃ©lai de garantie de dix ans aux architectes et aux entrepreneurs. Cette garantie dÃ©cennale est l'obligation de garantir, pendant dix ans, la bonne exÃ©cution et la bonne soliditÃ© de l'ouvrage. Sanction prise par l'assureur Ã  l'encontre de son assurÃ© pour des faits postÃ©rieurs au sinistre. Exemples de causes de dÃ©chÃ©ance: les dÃ©clarations mensongÃ¨res, la condamnation de l'assurÃ© pour conduite en Ã©tat d'ivresse... Tous les cas de dÃ©chÃ©ance doivent Ãªtre prÃ©vus dans votre police d'assurance, ils sont inopposables Ã  la victime qui doit Ãªtre indemnisÃ©e de ses dommages. L'assureur se retournera contre son assurÃ© pour exiger le remboursement des sommes versÃ©es. Acte par lequel l'assurÃ© dÃ©clare Ã  son assureur le sinistres qu'il cause ou qu'il subit. La dÃ©claration doit se faire dans des dÃ©lais qui varient en fonction de la nature des sinistres (en cas de non respect de ces dÃ©lais, sauf cas fortuit ou de force majeure, l'assureur est en droit de refuser la prise en charge du sinistre)",
       "url": "https://www.comar.tn/lexique/d",
       "keywords": [
         "proprietaire",
@@ -439,7 +533,7 @@
     {
       "type": "lexique",
       "title": "E",
-      "content": "La date d'effet est la date à partir de laquelle les garanties d'un contrat produisent leur effet. C'est la date à partir de laquelle le contrat débute. La notion d'effraction recouvre le forcement, la dégradation ou la destruction de tout dispositif de fermeture ou de toute espèce de clôture et par extension, l'usage de fausses clés... L'effraction est un des éléments qui entraînent le déclenchement de la garantie vol à la condition que l'assuré puisse en apporter la preuve. (véhicule épave): lorsque le coût des réparations suite à un sinistre automobile garanti dépasse la valeur du véhicule au jour du sinistre, le véhicule est déclaré épave (VEI = Véhicule Economiquement Irréparable) par l'expert qui plafonne son évaluation à la Valeur à dire d'expert .",
+      "content": "La date d'effet est la date Ã  partir de laquelle les garanties d'un contrat produisent leur effet. C'est la date Ã  partir de laquelle le contrat dÃ©bute. La notion d'effraction recouvre le forcement, la dÃ©gradation ou la destruction de tout dispositif de fermeture ou de toute espÃ¨ce de clÃ´ture et par extension, l'usage de fausses clÃ©s... L'effraction est un des Ã©lÃ©ments qui entraÃ®nent le dÃ©clenchement de la garantie vol Ã  la condition que l'assurÃ© puisse en apporter la preuve. (vÃ©hicule Ã©pave): lorsque le coÃ»t des rÃ©parations suite Ã  un sinistre automobile garanti dÃ©passe la valeur du vÃ©hicule au jour du sinistre, le vÃ©hicule est dÃ©clarÃ© Ã©pave (VEI = VÃ©hicule Economiquement IrrÃ©parable) par l'expert qui plafonne son Ã©valuation Ã  la Valeur Ã  dire d'expert .",
       "url": "https://www.comar.tn/lexique/e",
       "keywords": [
         "date",
@@ -516,7 +610,7 @@
     {
       "type": "lexique",
       "title": "F",
-      "content": "Le FGA n'est pas un organisme d'assurance. Il a pour but de dédommager les victimes d'accidents corporels causés par des véhicules terrestres à moteur lorsque l'auteur responsable est inconnu, non assuré ou insolvable. Il ne dispense pas pour autant les responsables des conséquences de leur responsabilité, car ceux-ci doivent rembourser au FGA les sommes avancées pour leur compte. Part des dommages qui reste à la charge de l'assuré en cas de sinistre. La franchise est contractuellement prévue aux conditions particulières ou générales. Elle s'exprime soit en pourcentage du montant du sinistre, soit en indice (pour les contrats habitation, entreprise...), ou encore en montant fixe. Développé par COMAR Assurances",
+      "content": "Le FGA n'est pas un organisme d'assurance. Il a pour but de dÃ©dommager les victimes d'accidents corporels causÃ©s par des vÃ©hicules terrestres Ã  moteur lorsque l'auteur responsable est inconnu, non assurÃ© ou insolvable. Il ne dispense pas pour autant les responsables des consÃ©quences de leur responsabilitÃ©, car ceux-ci doivent rembourser au FGA les sommes avancÃ©es pour leur compte. Part des dommages qui reste Ã  la charge de l'assurÃ© en cas de sinistre. La franchise est contractuellement prÃ©vue aux conditions particuliÃ¨res ou gÃ©nÃ©rales. Elle s'exprime soit en pourcentage du montant du sinistre, soit en indice (pour les contrats habitation, entreprise...), ou encore en montant fixe. DÃ©veloppÃ© par COMAR Assurances",
       "url": "https://www.comar.tn/lexique/f",
       "keywords": [
         "fga",
@@ -587,7 +681,7 @@
     {
       "type": "lexique",
       "title": "G",
-      "content": "La notion de personnes transportées à titre gratuit est importante en assurance automobile. En effet, si il s'avère, au moment d'un sinistre, que la personne transportée avait payé pour être transportée, l'indemnité peut être réduite, voir supprimée. En revanche, une nuance est acceptée entre la participation occasionnelle aux frais de route (l'essence par exemple) et le véritable transport payant facturé par un particulier. Développé par COMAR Assurances �",
+      "content": "La notion de personnes transportÃ©es Ã  titre gratuit est importante en assurance automobile. En effet, si il s'avÃ¨re, au moment d'un sinistre, que la personne transportÃ©e avait payÃ© pour Ãªtre transportÃ©e, l'indemnitÃ© peut Ãªtre rÃ©duite, voir supprimÃ©e. En revanche, une nuance est acceptÃ©e entre la participation occasionnelle aux frais de route (l'essence par exemple) et le vÃ©ritable transport payant facturÃ© par un particulier. DÃ©veloppÃ© par COMAR Assurances Â",
       "url": "https://www.comar.tn/lexique/g",
       "keywords": [
         "notion",
@@ -640,7 +734,7 @@
     {
       "type": "lexique",
       "title": "I",
-      "content": "Incendie, Accidents, Risques Divers: cette abréviation est couramment employée sur les documents qui vous sont adressés, elle désigne une branche, une catégorie d'assurance dommage et , généralement, la branche à laquelle appartient votre contrat: en l'occurrence, la protection des biens. La branche VIE est une autre branche regroupant les contrats de placements, de retraite, de prévoyance et de manière plus générale tous les contrats attachés à la protection de la personne. Indemnisation Directe des Assurés: il s'agit d'une convention signée entre la majorité des compagnies d'assurances qui est destinée à accélérer et simplifier les opérations d'indemnisation. La part de responsabilité incombant à chaque assuré est déterminée à partir du constat amiable. Ainsi, sans se concerter les deux assureurs appliquent le même cas de barème. Etat d'une personne qui, par suite de maladie ou d'accident, se trouve dans l'impossibilité provisoire ou permanente (si permanente = invalidité) de travailler et/ou d'effectuer certains gestes élémentaires. En droit commun, la réparation signifie que la victime doit être replacée dans la situation qui était la sienne avant l'accident. En cas d'incapacité temporaire, on distingue l'Incapacité Temporaire Totale de travail (ITT) et l'Incapacité Temporaire Partielle de travail (ITP).",
+      "content": "Incendie, Accidents, Risques Divers: cette abrÃ©viation est couramment employÃ©e sur les documents qui vous sont adressÃ©s, elle dÃ©signe une branche, une catÃ©gorie d'assurance dommage et , gÃ©nÃ©ralement, la branche Ã  laquelle appartient votre contrat: en l'occurrence, la protection des biens. La branche VIE est une autre branche regroupant les contrats de placements, de retraite, de prÃ©voyance et de maniÃ¨re plus gÃ©nÃ©rale tous les contrats attachÃ©s Ã  la protection de la personne. Indemnisation Directe des AssurÃ©s: il s'agit d'une convention signÃ©e entre la majoritÃ© des compagnies d'assurances qui est destinÃ©e Ã  accÃ©lÃ©rer et simplifier les opÃ©rations d'indemnisation. La part de responsabilitÃ© incombant Ã  chaque assurÃ© est dÃ©terminÃ©e Ã  partir du constat amiable. Ainsi, sans se concerter les deux assureurs appliquent le mÃªme cas de barÃ¨me. Etat d'une personne qui, par suite de maladie ou d'accident, se trouve dans l'impossibilitÃ© provisoire ou permanente (si permanente = invaliditÃ©) de travailler et/ou d'effectuer certains gestes Ã©lÃ©mentaires. En droit commun, la rÃ©paration signifie que la victime doit Ãªtre replacÃ©e dans la situation qui Ã©tait la sienne avant l'accident. En cas d'incapacitÃ© temporaire, on distingue l'IncapacitÃ© Temporaire Totale de travail (ITT) et l'IncapacitÃ© Temporaire Partielle de travail (ITP).",
       "url": "https://www.comar.tn/lexique/i",
       "keywords": [
         "incendie",
@@ -765,7 +859,7 @@
     {
       "type": "lexique",
       "title": "J",
-      "content": "La privatisation de jouissance d'un bien, meuble ou immeuble est assuré dans le cadre des polices d'assurance dommages. La garantie correspond à la valeur d'usage du bien pendant un laps de temps, par exemple pendant 1 ou 2 ans. La privatisation de jouissance d'un service constitue un dommage immatériel. Développé par COMAR Assurances �",
+      "content": "La privatisation de jouissance d'un bien, meuble ou immeuble est assurÃ© dans le cadre des polices d'assurance dommages. La garantie correspond Ã  la valeur d'usage du bien pendant un laps de temps, par exemple pendant 1 ou 2 ans. La privatisation de jouissance d'un service constitue un dommage immatÃ©riel. DÃ©veloppÃ© par COMAR Assurances Â",
       "url": "https://www.comar.tn/lexique/j",
       "keywords": [
         "privatisation",
@@ -804,7 +898,7 @@
     {
       "type": "lexique",
       "title": "M",
-      "content": "Les assurances mixtes sont la combinaison d'une garantie en cas de vie et d'une protection en cas de décès. En d'autres termes, ce sont à la fois des contrats de prévoyance et des contrats de capitalisation. Ces contrats sont de plus en plus rares, car, aujourd'hui, les assureurs préfèrent aborder séparément les questions de prévoyance et de capitalisation en faisant deux contrats distincts ayant chacun leur spécificité. Développé par COMAR Assurances �",
+      "content": "Les assurances mixtes sont la combinaison d'une garantie en cas de vie et d'une protection en cas de dÃ©cÃ¨s. En d'autres termes, ce sont Ã  la fois des contrats de prÃ©voyance et des contrats de capitalisation. Ces contrats sont de plus en plus rares, car, aujourd'hui, les assureurs prÃ©fÃ¨rent aborder sÃ©parÃ©ment les questions de prÃ©voyance et de capitalisation en faisant deux contrats distincts ayant chacun leur spÃ©cificitÃ©. DÃ©veloppÃ© par COMAR Assurances Â",
       "url": "https://www.comar.tn/lexique/m",
       "keywords": [
         "assurances",
@@ -857,7 +951,7 @@
     {
       "type": "lexique",
       "title": "N",
-      "content": "Document délivré par votre assureur en attendant l'établissement du contrat définitif. La note de couverture vaut garantie, même si le contrat n'est pas encore signé (généralement elle est valable un mois). C'est la sanction qui prive l'assuré des garanties un contrat. Elle est appliquée s’il s'avère que l'assuré a volontairement fait une fausse déclaration sur ses antécédents ou sa situation personnelle. Développé par COMAR Assurances",
+      "content": "Document dÃ©livrÃ© par votre assureur en attendant l'Ã©tablissement du contrat dÃ©finitif. La note de couverture vaut garantie, mÃªme si le contrat n'est pas encore signÃ© (gÃ©nÃ©ralement elle est valable un mois). C'est la sanction qui prive l'assurÃ© des garanties un contrat. Elle est appliquÃ©e sâil s'avÃ¨re que l'assurÃ© a volontairement fait une fausse dÃ©claration sur ses antÃ©cÃ©dents ou sa situation personnelle. DÃ©veloppÃ© par COMAR Assurances",
       "url": "https://www.comar.tn/lexique/n",
       "keywords": [
         "document",
@@ -903,7 +997,7 @@
     {
       "type": "lexique",
       "title": "P",
-      "content": "(Multirisque professionnelle) à la suite d'un sinistre, grâce à la couverture de votre contrat d'assurance, les murs de l'entreprise vont être reconstruits, les marchandises remplacées. Mais pendant la reconstruction le chiffre d'affaires a baissé compte tenu des conditions d'exploitation difficiles. Or les charges fixes de votre entreprise sont demeurées: loyers, impôts et taxes, emprunts... L'assurance Perte d'exploitation est destinée à replacer votre affaire dans la situation financière qui aurait été la sienne si le sinistre n'avait pas eu lieu. A la suite d'un sinistre, vous pouvez avoir à faire face à des frais supplémentaires très divers (Frais de transport, restaurant, courrier...). L'objet de cette garantie est de vous dédommager de certains frais exceptionnels consécutifs à un sinistre pris en charge par l'assureur. Somme à payer pour bénéficier des garanties de votre contrat",
+      "content": "(Multirisque professionnelle) Ã  la suite d'un sinistre, grÃ¢ce Ã  la couverture de votre contrat d'assurance, les murs de l'entreprise vont Ãªtre reconstruits, les marchandises remplacÃ©es. Mais pendant la reconstruction le chiffre d'affaires a baissÃ© compte tenu des conditions d'exploitation difficiles. Or les charges fixes de votre entreprise sont demeurÃ©es: loyers, impÃ´ts et taxes, emprunts... L'assurance Perte d'exploitation est destinÃ©e Ã  replacer votre affaire dans la situation financiÃ¨re qui aurait Ã©tÃ© la sienne si le sinistre n'avait pas eu lieu. A la suite d'un sinistre, vous pouvez avoir Ã  faire face Ã  des frais supplÃ©mentaires trÃ¨s divers (Frais de transport, restaurant, courrier...). L'objet de cette garantie est de vous dÃ©dommager de certains frais exceptionnels consÃ©cutifs Ã  un sinistre pris en charge par l'assureur. Somme Ã  payer pour bÃ©nÃ©ficier des garanties de votre contrat",
       "url": "https://www.comar.tn/lexique/p",
       "keywords": [
         "multirisque",
@@ -993,7 +1087,7 @@
     {
       "type": "lexique",
       "title": "Q",
-      "content": "Reçu délivré par l'assureur prouvant que la prime a bien été payée. Développé par COMAR Assurances �",
+      "content": "ReÃ§u dÃ©livrÃ© par l'assureur prouvant que la prime a bien Ã©tÃ© payÃ©e. DÃ©veloppÃ© par COMAR Assurances Â",
       "url": "https://www.comar.tn/lexique/q",
       "keywords": [
         "recu",
@@ -1014,7 +1108,7 @@
     {
       "type": "lexique",
       "title": "R",
-      "content": "La durée de l'assurance est fixée au contrat. Si cette durée excède une année, et sous réserve des dispositions relatives aux assurances sur la vie, l'assuré a le droit de résilier le contrat tous les ans à l'échéance du contrat en prévenant l'assureur au moins deux mois avant la date d'échéance dans l'une des formes de Est civilement responsable, la personne physique (vous) ou morale (une entreprise par exemple) obligée, par la règle de droit, de réparer tout ou partie d'un dommage qu'elle a causé à un tiers. Votre contrat habitation couvre votre responsabilité civile vie privée celle de votre conjoint, de vos enfants, mais aussi celle des animaux dont vous êtes responsable pour les dommages qu'ils pourraient causer à des tiers. Pour l'automobile, la responsabilité civile (ce que l'on appelle \"le tiers\") est obligatoire. Cette responsabilité résulte de la violation d'une règle de conduite écrite (imposée par la société) qui a un but répressif et qui vise à maintenir l'ordre public.",
+      "content": "La durÃ©e de l'assurance est fixÃ©e au contrat. Si cette durÃ©e excÃ¨de une annÃ©e, et sous rÃ©serve des dispositions relatives aux assurances sur la vie, l'assurÃ© a le droit de rÃ©silier le contrat tous les ans Ã  l'Ã©chÃ©ance du contrat en prÃ©venant l'assureur au moins deux mois avant la date d'Ã©chÃ©ance dans l'une des formes de Est civilement responsable, la personne physique (vous) ou morale (une entreprise par exemple) obligÃ©e, par la rÃ¨gle de droit, de rÃ©parer tout ou partie d'un dommage qu'elle a causÃ© Ã  un tiers. Votre contrat habitation couvre votre responsabilitÃ© civile vie privÃ©e celle de votre conjoint, de vos enfants, mais aussi celle des animaux dont vous Ãªtes responsable pour les dommages qu'ils pourraient causer Ã  des tiers. Pour l'automobile, la responsabilitÃ© civile (ce que l'on appelle \"le tiers\") est obligatoire. Cette responsabilitÃ© rÃ©sulte de la violation d'une rÃ¨gle de conduite Ã©crite (imposÃ©e par la sociÃ©tÃ©) qui a un but rÃ©pressif et qui vise Ã  maintenir l'ordre public.",
       "url": "https://www.comar.tn/lexique/r",
       "keywords": [
         "duree",
@@ -1112,7 +1206,7 @@
     {
       "type": "lexique",
       "title": "S",
-      "content": "C'est le risque qui se réalise: l'incendie, le vol, l'accident... (Voir aussi déclaration). C'est pour vous prémunir de leurs conséquences que vous souscrivez une assurance. Personne physique (vous) ou morale (une entreprise) qui, en signant le contrat, adhère pour elle-même et pour les assurés aux Conditions Générales et Particulières de ce contrat. Lorsque le dommage subi par l'assuré est le fait d'un tiers, l'assureur indemnise son assuré et peut exercer un recours contre le tiers responsable pour son propre compte à concurrence du montant de l'indemnité qu'il a versé. On dit que l'assureur est \"subrogé\" dans les droits et actions de l'assuré contre le tiers responsable.",
+      "content": "C'est le risque qui se rÃ©alise: l'incendie, le vol, l'accident... (Voir aussi dÃ©claration). C'est pour vous prÃ©munir de leurs consÃ©quences que vous souscrivez une assurance. Personne physique (vous) ou morale (une entreprise) qui, en signant le contrat, adhÃ¨re pour elle-mÃªme et pour les assurÃ©s aux Conditions GÃ©nÃ©rales et ParticuliÃ¨res de ce contrat. Lorsque le dommage subi par l'assurÃ© est le fait d'un tiers, l'assureur indemnise son assurÃ© et peut exercer un recours contre le tiers responsable pour son propre compte Ã  concurrence du montant de l'indemnitÃ© qu'il a versÃ©. On dit que l'assureur est \"subrogÃ©\" dans les droits et actions de l'assurÃ© contre le tiers responsable.",
       "url": "https://www.comar.tn/lexique/s",
       "keywords": [
         "risque",
@@ -1178,7 +1272,7 @@
     {
       "type": "lexique",
       "title": "T",
-      "content": "La majorité des contrats prévoit cette clause qui vous permet de voir renouveler, chaque année, vos contrats sans que vous ayez à en faire expressément la demande. En revanche, n'oubliez pas qu'il faudra faire une demande de résiliation, pour mettre fin à votre contrat. Développé par COMAR Assurances �",
+      "content": "La majoritÃ© des contrats prÃ©voit cette clause qui vous permet de voir renouveler, chaque annÃ©e, vos contrats sans que vous ayez Ã  en faire expressÃ©ment la demande. En revanche, n'oubliez pas qu'il faudra faire une demande de rÃ©siliation, pour mettre fin Ã  votre contrat. DÃ©veloppÃ© par COMAR Assurances Â",
       "url": "https://www.comar.tn/lexique/t",
       "keywords": [
         "majorite",
@@ -1216,7 +1310,7 @@
     {
       "type": "lexique",
       "title": "V",
-      "content": "(automobile) C'est la valeur calculée par l'expert selon des techniques d'évaluation établies et certifiées. Par exemple pour un véhicule, il s'agit de la technique d'évaluation du conseil national de l'Expertise (Bilan technique) : elle est déterminée au prix catalogue au jour du sinistre moins un coefficient de dépréciation (Nombre de mois d'utilisation) - correctif kilométrage, état du véhicule et marché local. (en habitation) La valeur d'usage ne permet pas toujours à l'assuré de reconstruire sans supporter personnellement la charge financière correspondant à la dépréciation (vétusté) du bien endommagé. La majorité des contrats habitations (à vérifier sur votre contrat) prévoient une clause \"Valeur à neuf\" afin que vous soyez indemnisé en valeur de reconstruction au prix du neuf au jour du sinistre. (Attention, cette clause ne s'applique pas à toutes les garanties). C'est la valeur déterminée contractuellement par un expert. Dans le cadre d'un contrat habitation, et au delà d'un certain capital mobilier, il est intéressant pour l'assuré de faire réaliser une expertise par un expert agréé par sa compagnie d'assurances. En effet, les sommes dûes en cas de sinistre seront celles prévues au contrat, expertise à l'appui. A la différence d'un contrat habitation classique dans lequel la valeur assurée fait l'objet de l'application d'une vétusté.",
+      "content": "(automobile) C'est la valeur calculÃ©e par l'expert selon des techniques d'Ã©valuation Ã©tablies et certifiÃ©es. Par exemple pour un vÃ©hicule, il s'agit de la technique d'Ã©valuation du conseil national de l'Expertise (Bilan technique) : elle est dÃ©terminÃ©e au prix catalogue au jour du sinistre moins un coefficient de dÃ©prÃ©ciation (Nombre de mois d'utilisation) - correctif kilomÃ©trage, Ã©tat du vÃ©hicule et marchÃ© local. (en habitation) La valeur d'usage ne permet pas toujours Ã  l'assurÃ© de reconstruire sans supporter personnellement la charge financiÃ¨re correspondant Ã  la dÃ©prÃ©ciation (vÃ©tustÃ©) du bien endommagÃ©. La majoritÃ© des contrats habitations (Ã  vÃ©rifier sur votre contrat) prÃ©voient une clause \"Valeur Ã  neuf\" afin que vous soyez indemnisÃ© en valeur de reconstruction au prix du neuf au jour du sinistre. (Attention, cette clause ne s'applique pas Ã  toutes les garanties). C'est la valeur dÃ©terminÃ©e contractuellement par un expert. Dans le cadre d'un contrat habitation, et au delÃ  d'un certain capital mobilier, il est intÃ©ressant pour l'assurÃ© de faire rÃ©aliser une expertise par un expert agrÃ©Ã© par sa compagnie d'assurances. En effet, les sommes dÃ»es en cas de sinistre seront celles prÃ©vues au contrat, expertise Ã  l'appui. A la diffÃ©rence d'un contrat habitation classique dans lequel la valeur assurÃ©e fait l'objet de l'application d'une vÃ©tustÃ©.",
       "url": "https://www.comar.tn/lexique/v",
       "keywords": [
         "automobile",
@@ -1341,7 +1435,7 @@
     {
       "type": "lexique",
       "title": "BENEFICIAIRE",
-      "content": "Personne physique ou morale au profit de laquelle l'assurance a été contractée. Elle peut être nommément désignée aux conditions particulières du contrat ou bien apparaître dans les conditions générales sous les termes de: conjoint survivant, d'ayants droit, ou encore d’héritier né ou à naître...Le bénéficiaire recevra l'indemnité due par l'assureur en cas de réalisation du risque assuré. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Personne physique ou morale au profit de laquelle l'assurance a Ã©tÃ© contractÃ©e. Elle peut Ãªtre nommÃ©ment dÃ©signÃ©e aux conditions particuliÃ¨res du contrat ou bien apparaÃ®tre dans les conditions gÃ©nÃ©rales sous les termes de: conjoint survivant, d'ayants droit, ou encore dâhÃ©ritier nÃ© ou Ã  naÃ®tre...Le bÃ©nÃ©ficiaire recevra l'indemnitÃ© due par l'assureur en cas de rÃ©alisation du risque assurÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/beneficiaire",
       "keywords": [
         "beneficiaire",
@@ -1393,7 +1487,7 @@
     {
       "type": "lexique",
       "title": "BATIMENT",
-      "content": "Ce sont les constructions et leurs dépendances (immeuble par nature) à l'exception du terrain. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Ce sont les constructions et leurs dÃ©pendances (immeuble par nature) Ã  l'exception du terrain. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/batiment",
       "keywords": [
         "batiment",
@@ -1416,7 +1510,7 @@
     {
       "type": "lexique",
       "title": "AVIS D'ECHEANCE",
-      "content": "Courrier par lequel l'assureur vous réclame le paiement de votre prime d'assurance. Vous avez, au terme du code des Assurances, 10 jours pour régler votre prime à compter de la date d'échéance. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Courrier par lequel l'assureur vous rÃ©clame le paiement de votre prime d'assurance. Vous avez, au terme du code des Assurances, 10 jours pour rÃ©gler votre prime Ã  compter de la date d'Ã©chÃ©ance. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/avis-decheance",
       "keywords": [
         "avis",
@@ -1451,7 +1545,7 @@
     {
       "type": "lexique",
       "title": "AVENANT",
-      "content": "Lorsque les conditions initiales de votre contrat sont revues: déménagement, changement de véhicule... votre assureur émet un avenant (un remplacement), afin de valider votre nouvelle situation et vos garanties. L'avenant, tout comme le contrat initial, doit être signé par l'assuré et l'assureur, car l'avenant représente une preuve de la modification du contrat. Il évite la rédaction complète d'un nouveau contrat. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Lorsque les conditions initiales de votre contrat sont revues: dÃ©mÃ©nagement, changement de vÃ©hicule... votre assureur Ã©met un avenant (un remplacement), afin de valider votre nouvelle situation et vos garanties. L'avenant, tout comme le contrat initial, doit Ãªtre signÃ© par l'assurÃ© et l'assureur, car l'avenant reprÃ©sente une preuve de la modification du contrat. Il Ã©vite la rÃ©daction complÃ¨te d'un nouveau contrat. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/avenant",
       "keywords": [
         "avenant",
@@ -1506,7 +1600,7 @@
     {
       "type": "lexique",
       "title": "ATTESTATION D'ASSURANCE",
-      "content": "Ce document vaut comme justificatif d'assurance pendant sa période de validité. Sur le territoire national. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Ce document vaut comme justificatif d'assurance pendant sa pÃ©riode de validitÃ©. Sur le territoire national. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/attestation-dassurance",
       "keywords": [
         "attestation",
@@ -1531,7 +1625,7 @@
     {
       "type": "lexique",
       "title": "ASSURE",
-      "content": "Ou encore le preneur d'assurance suivant une récente terminologie. C'est le propriétaire du véhicule assuré et toute personne ayant, avec leur autorisation, la garde ou la conduite du véhicule, ainsi que toute personne qui est transportée à titre gratuit En habitation, l'assuré, c'est le preneur d'assurance, son conjoint, les enfants mineurs et les enfants majeurs célibataires résidant sous le même toit, à l'adresse indiquée sur le contrat. Mais c'est aussi tout autre personne résidant en permanence sous le même toit, à l'adresse indiquée sur les conditions particulières, les gardes bénévoles et les aides occasionnelles. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Ou encore le preneur d'assurance suivant une rÃ©cente terminologie. C'est le propriÃ©taire du vÃ©hicule assurÃ© et toute personne ayant, avec leur autorisation, la garde ou la conduite du vÃ©hicule, ainsi que toute personne qui est transportÃ©e Ã  titre gratuit En habitation, l'assurÃ©, c'est le preneur d'assurance, son conjoint, les enfants mineurs et les enfants majeurs cÃ©libataires rÃ©sidant sous le mÃªme toit, Ã  l'adresse indiquÃ©e sur le contrat. Mais c'est aussi tout autre personne rÃ©sidant en permanence sous le mÃªme toit, Ã  l'adresse indiquÃ©e sur les conditions particuliÃ¨res, les gardes bÃ©nÃ©voles et les aides occasionnelles. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/assure",
       "keywords": [
         "assure",
@@ -1600,7 +1694,7 @@
     {
       "type": "lexique",
       "title": "ANTECEDENTS",
-      "content": "Informations relatives au \"passé de l'assuré\". Lors de l'établissement d'un contrat il vous sera demandé de faire état de vos antécédents afin que l'assureur puisse, à la lumière de votre historique en tant qu'assuré (et de votre bonus), évaluer le risque et vous donner un tarif correspondant à votre situation. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Informations relatives au \"passÃ© de l'assurÃ©\". Lors de l'Ã©tablissement d'un contrat il vous sera demandÃ© de faire Ã©tat de vos antÃ©cÃ©dents afin que l'assureur puisse, Ã  la lumiÃ¨re de votre historique en tant qu'assurÃ© (et de votre bonus), Ã©valuer le risque et vous donner un tarif correspondant Ã  votre situation. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/antecedents",
       "keywords": [
         "antecedents",
@@ -1643,7 +1737,7 @@
     {
       "type": "lexique",
       "title": "AGENT GENERAL",
-      "content": "Il représente exclusivement une compagnie. Cette dernière lui délègue le pouvoir de souscrire des contrats, d'encaisser des primes et de régler des sinistres. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Il reprÃ©sente exclusivement une compagnie. Cette derniÃ¨re lui dÃ©lÃ¨gue le pouvoir de souscrire des contrats, d'encaisser des primes et de rÃ©gler des sinistres. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/agent-general",
       "keywords": [
         "agent",
@@ -1672,7 +1766,7 @@
     {
       "type": "lexique",
       "title": "ALIENATION",
-      "content": "Transmission de la propriété d'un bien entre personnes physiques ou morales (par exemple donation, vente...) N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Transmission de la propriÃ©tÃ© d'un bien entre personnes physiques ou morales (par exemple donation, vente...) N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/alienation",
       "keywords": [
         "alienation",
@@ -1696,7 +1790,7 @@
     {
       "type": "lexique",
       "title": "AMENAGEMENTS",
-      "content": "Installations qui ne peuvent être détachés sans être détériorés ou sans détériorer les bâtiments. Ce sont les immeubles par destination, par exemple: un ascenseur ou une installation de chauffage central. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Installations qui ne peuvent Ãªtre dÃ©tachÃ©s sans Ãªtre dÃ©tÃ©riorÃ©s ou sans dÃ©tÃ©riorer les bÃ¢timents. Ce sont les immeubles par destination, par exemple: un ascenseur ou une installation de chauffage central. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/amenagements",
       "keywords": [
         "amenagements",
@@ -1729,7 +1823,7 @@
     {
       "type": "lexique",
       "title": "BONUS/MALUS",
-      "content": "C'est le terme qui désigne le système par lequel les assurés se voient accorder des réductions ou des majorations en fonction de la survenance (ou non) de sinistre. C'est un élément central dans la tarification de votre véhicule dans la mesure où l'application de ce coefficient peut diminuer de moitié votre cotisation (0.50 de bonus). C'est \"une note\" qui vous est personnelle et qui reflète votre historique en tant que conducteur. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le terme qui dÃ©signe le systÃ¨me par lequel les assurÃ©s se voient accorder des rÃ©ductions ou des majorations en fonction de la survenance (ou non) de sinistre. C'est un Ã©lÃ©ment central dans la tarification de votre vÃ©hicule dans la mesure oÃ¹ l'application de ce coefficient peut diminuer de moitiÃ© votre cotisation (0.50 de bonus). C'est \"une note\" qui vous est personnelle et qui reflÃ¨te votre historique en tant que conducteur. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/bonusmalus",
       "keywords": [
         "bonus",
@@ -1779,7 +1873,7 @@
     {
       "type": "lexique",
       "title": "CATASTROPHES NATURELLES",
-      "content": "Tous les événements qui revêtent par leur importance ou leur étendue un risque catastrophique. Ce sont certains événements naturels, tels que les cyclones, les inondations, les secousses sismiques. Ils sont imprévisibles. Pour que le contrat d'assurance fonctionne et que la garantie soit accordée dans le cadre de ces événements il faut que l'état de catastrophe naturelle soit constaté par un arrêté Interministériel publié au Journal Officiel. Dans la pratique ce n'est, hélas, pas toujours le cas, et des \"micro-catastrophes naturelles\" très localisées ne donnent pas toujours lieu à publication au Journal Officiel alors que les dégâts sont importants. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Tous les Ã©vÃ©nements qui revÃªtent par leur importance ou leur Ã©tendue un risque catastrophique. Ce sont certains Ã©vÃ©nements naturels, tels que les cyclones, les inondations, les secousses sismiques. Ils sont imprÃ©visibles. Pour que le contrat d'assurance fonctionne et que la garantie soit accordÃ©e dans le cadre de ces Ã©vÃ©nements il faut que l'Ã©tat de catastrophe naturelle soit constatÃ© par un arrÃªtÃ© InterministÃ©riel publiÃ© au Journal Officiel. Dans la pratique ce n'est, hÃ©las, pas toujours le cas, et des \"micro-catastrophes naturelles\" trÃ¨s localisÃ©es ne donnent pas toujours lieu Ã  publication au Journal Officiel alors que les dÃ©gÃ¢ts sont importants. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/catastrophes-naturelles",
       "keywords": [
         "catastrophes",
@@ -1853,7 +1947,7 @@
     {
       "type": "lexique",
       "title": "CLAUSE",
-      "content": "Disposition particulière d'une police d'assurance détaillant le fonctionnement d'une garantie, ou bien précisant la nature des engagements réciproques de l'assureur et de l'assuré. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Disposition particuliÃ¨re d'une police d'assurance dÃ©taillant le fonctionnement d'une garantie, ou bien prÃ©cisant la nature des engagements rÃ©ciproques de l'assureur et de l'assurÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/clause",
       "keywords": [
         "clause",
@@ -1881,7 +1975,7 @@
     {
       "type": "lexique",
       "title": "CODES DES ASSURANCES",
-      "content": "Ensemble des lois et des règlements qui doivent être respectés par les sociétés d'assurances et qui régissent les relations assureurs/assurés. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Ensemble des lois et des rÃ¨glements qui doivent Ãªtre respectÃ©s par les sociÃ©tÃ©s d'assurances et qui rÃ©gissent les relations assureurs/assurÃ©s. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/codes-des-assurances",
       "keywords": [
         "codes",
@@ -1909,7 +2003,7 @@
     {
       "type": "lexique",
       "title": "COEFFICIENT DE REDUCTION/MAJORATION",
-      "content": "Il s'agit du terme technique qui désigne ce que l'on appelle couramment le \"Bonus\". Le coefficient de réduction / majoration est un coefficient multiplicateur qui s'applique sur votre prime auto ou moto. Il permet d'octroyer une réduction aux bons conducteurs et de majorer les primes des personnes causant des sinistres. La cotisation à payer à chaque échéance annuelle est influencée par la baisse ou la hausse de cet indicateur qui reflète votre \" bonne conduite\". La réduction maximale est de 0.50, soit 50% de réduction sur la prime de référence. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Il s'agit du terme technique qui dÃ©signe ce que l'on appelle couramment le \"Bonus\". Le coefficient de rÃ©duction / majoration est un coefficient multiplicateur qui s'applique sur votre prime auto ou moto. Il permet d'octroyer une rÃ©duction aux bons conducteurs et de majorer les primes des personnes causant des sinistres. La cotisation Ã  payer Ã  chaque Ã©chÃ©ance annuelle est influencÃ©e par la baisse ou la hausse de cet indicateur qui reflÃ¨te votre \" bonne conduite\". La rÃ©duction maximale est de 0.50, soit 50% de rÃ©duction sur la prime de rÃ©fÃ©rence. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/coefficient-de-reductionmajoration",
       "keywords": [
         "coefficient",
@@ -1974,7 +2068,7 @@
     {
       "type": "lexique",
       "title": "COMAR",
-      "content": "L’agent représente une société d’assurances. Il engage celle-ci en vendant des contrats d’assurance à ses clients, en recevant le paiement des primes d’assurance et aussi les déclarations de sinistre, en versant des indemnités aux assurés (éventuellement) à la suite d’un sinistre. L’agent d’assurance est rémunéré à la commission. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Lâagent reprÃ©sente une sociÃ©tÃ© dâassurances. Il engage celle-ci en vendant des contrats dâassurance Ã  ses clients, en recevant le paiement des primes dâassurance et aussi les dÃ©clarations de sinistre, en versant des indemnitÃ©s aux assurÃ©s (Ã©ventuellement) Ã  la suite dâun sinistre. Lâagent dâassurance est rÃ©munÃ©rÃ© Ã  la commission. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/comar",
       "keywords": [
         "comar",
@@ -2017,7 +2111,7 @@
     {
       "type": "lexique",
       "title": "CONDITIONS GENERALES",
-      "content": "C'est le mode d'emploi de votre contrat. Ce sont les règles qui régissent, dans le cas général, votre contrat. Elles s'appliquent à l'ensemble des contrats du même type et expliquent, exhaustivement, le fonctionnement de toutes les garanties. Vous aurez peut-être l'explication du fonctionnement d'une garantie que vous n'avez pas souscrite, pour savoir si cette garantie est souscrite, il faut se reporter à vos conditions PARTICULIERES. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le mode d'emploi de votre contrat. Ce sont les rÃ¨gles qui rÃ©gissent, dans le cas gÃ©nÃ©ral, votre contrat. Elles s'appliquent Ã  l'ensemble des contrats du mÃªme type et expliquent, exhaustivement, le fonctionnement de toutes les garanties. Vous aurez peut-Ãªtre l'explication du fonctionnement d'une garantie que vous n'avez pas souscrite, pour savoir si cette garantie est souscrite, il faut se reporter Ã  vos conditions PARTICULIERES. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/conditions-generales",
       "keywords": [
         "conditions",
@@ -2069,7 +2163,7 @@
     {
       "type": "lexique",
       "title": "CONDITIONS PARTICULIERES",
-      "content": "Contrairement aux Conditions Générales, les Conditions Particulières vous sont personnelles. Elles définissent les garanties pour lesquelles vous avez opté. Vous pouvez vous reporter aux Conditions Générales pour avoir plus de précisions sur leur fonctionnement. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Contrairement aux Conditions GÃ©nÃ©rales, les Conditions ParticuliÃ¨res vous sont personnelles. Elles dÃ©finissent les garanties pour lesquelles vous avez optÃ©. Vous pouvez vous reporter aux Conditions GÃ©nÃ©rales pour avoir plus de prÃ©cisions sur leur fonctionnement. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/conditions-particulieres",
       "keywords": [
         "conditions",
@@ -2106,7 +2200,7 @@
     {
       "type": "lexique",
       "title": "CONSOLIDATION",
-      "content": "Stabilisation de l'état médical d'une personne, après un accident ou une maladie et laissant subsister des séquelles. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Stabilisation de l'Ã©tat mÃ©dical d'une personne, aprÃ¨s un accident ou une maladie et laissant subsister des sÃ©quelles. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/consolidation",
       "keywords": [
         "consolidation",
@@ -2131,7 +2225,7 @@
     {
       "type": "lexique",
       "title": "CONSTAT AMIABLE",
-      "content": "C'est un document à remplir avec la personne avec laquelle vous avez eu un sinistre (soit auto, soit dégâts des eaux). L'avantage de ce document est de regrouper sur une seule et même page l'ensemble des informations utiles à votre indemnisation (Lieu du sinistre, date, heure, circonstances...), son inconvénient, c'est son caractère irrévocable dès lors qu'il est signé des deux parties en présence. Soyez donc attentif lorsque vous complétez un constat amiable. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est un document Ã  remplir avec la personne avec laquelle vous avez eu un sinistre (soit auto, soit dÃ©gÃ¢ts des eaux). L'avantage de ce document est de regrouper sur une seule et mÃªme page l'ensemble des informations utiles Ã  votre indemnisation (Lieu du sinistre, date, heure, circonstances...), son inconvÃ©nient, c'est son caractÃ¨re irrÃ©vocable dÃ¨s lors qu'il est signÃ© des deux parties en prÃ©sence. Soyez donc attentif lorsque vous complÃ©tez un constat amiable. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/constat-amiable",
       "keywords": [
         "constat",
@@ -2190,7 +2284,7 @@
     {
       "type": "lexique",
       "title": "COURTIER",
-      "content": "Le courtier est le mandataire de son client. C'est à dire de l'assuré pour qui il recherche, en toute indépendance, à chaque fois ou au cas par cas, la société d'assurances qui garantira les clients au mieux de ses intérêts. Le courtier a la qualité juridique de commerçant (l'agent général celle de profession libérale). En principe, il demeure le mieux placé pour trouver les meilleures garanties au meilleur prix. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Le courtier est le mandataire de son client. C'est Ã  dire de l'assurÃ© pour qui il recherche, en toute indÃ©pendance, Ã  chaque fois ou au cas par cas, la sociÃ©tÃ© d'assurances qui garantira les clients au mieux de ses intÃ©rÃªts. Le courtier a la qualitÃ© juridique de commerÃ§ant (l'agent gÃ©nÃ©ral celle de profession libÃ©rale). En principe, il demeure le mieux placÃ© pour trouver les meilleures garanties au meilleur prix. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/courtier",
       "keywords": [
         "courtier",
@@ -2242,7 +2336,7 @@
     {
       "type": "lexique",
       "title": "DECENNALE",
-      "content": "Le propriétaire qui doit faire réaliser des travaux n'est pas toujours en mesure d'apprécier le parfait achèvement de ces mêmes travaux, (et si la construction est correctement exécutée). Il est donc nécessaire qu'un certain temps s'écoule pour que le nouvel édifice ait le temps de \"travailler\" et de se tasser sur ses fondations. Le législateur a donc estimé nécessaire d'imposer un délai de garantie de dix ans aux architectes et aux entrepreneurs. Cette garantie décennale est l'obligation de garantir, pendant dix ans, la bonne exécution et la bonne solidité de l'ouvrage. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Le propriÃ©taire qui doit faire rÃ©aliser des travaux n'est pas toujours en mesure d'apprÃ©cier le parfait achÃ¨vement de ces mÃªmes travaux, (et si la construction est correctement exÃ©cutÃ©e). Il est donc nÃ©cessaire qu'un certain temps s'Ã©coule pour que le nouvel Ã©difice ait le temps de \"travailler\" et de se tasser sur ses fondations. Le lÃ©gislateur a donc estimÃ© nÃ©cessaire d'imposer un dÃ©lai de garantie de dix ans aux architectes et aux entrepreneurs. Cette garantie dÃ©cennale est l'obligation de garantir, pendant dix ans, la bonne exÃ©cution et la bonne soliditÃ© de l'ouvrage. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/decennale",
       "keywords": [
         "decennale",
@@ -2309,7 +2403,7 @@
     {
       "type": "lexique",
       "title": "DECHEANCE",
-      "content": "Sanction prise par l'assureur à l'encontre de son assuré pour des faits postérieurs au sinistre. Exemples de causes de déchéance: les déclarations mensongères, la condamnation de l'assuré pour conduite en état d'ivresse... Tous les cas de déchéance doivent être prévus dans votre police d'assurance, ils sont inopposables à la victime qui doit être indemnisée de ses dommages. L'assureur se retournera contre son assuré pour exiger le remboursement des sommes versées. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Sanction prise par l'assureur Ã  l'encontre de son assurÃ© pour des faits postÃ©rieurs au sinistre. Exemples de causes de dÃ©chÃ©ance: les dÃ©clarations mensongÃ¨res, la condamnation de l'assurÃ© pour conduite en Ã©tat d'ivresse... Tous les cas de dÃ©chÃ©ance doivent Ãªtre prÃ©vus dans votre police d'assurance, ils sont inopposables Ã  la victime qui doit Ãªtre indemnisÃ©e de ses dommages. L'assureur se retournera contre son assurÃ© pour exiger le remboursement des sommes versÃ©es. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/decheance",
       "keywords": [
         "decheance",
@@ -2368,7 +2462,7 @@
     {
       "type": "lexique",
       "title": "DECLARATION DE SINISTRE",
-      "content": "Acte par lequel l'assuré déclare à son assureur le sinistres qu'il cause ou qu'il subit. La déclaration doit se faire dans des délais qui varient en fonction de la nature des sinistres (en cas de non respect de ces délais, sauf cas fortuit ou de force majeure, l'assureur est en droit de refuser la prise en charge du sinistre) N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Acte par lequel l'assurÃ© dÃ©clare Ã  son assureur le sinistres qu'il cause ou qu'il subit. La dÃ©claration doit se faire dans des dÃ©lais qui varient en fonction de la nature des sinistres (en cas de non respect de ces dÃ©lais, sauf cas fortuit ou de force majeure, l'assureur est en droit de refuser la prise en charge du sinistre) N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/declaration-de-sinistre",
       "keywords": [
         "declaration",
@@ -2416,7 +2510,7 @@
     {
       "type": "lexique",
       "title": "EFFET",
-      "content": "La date d'effet est la date à partir de laquelle les garanties d'un contrat produisent leur effet. C'est la date à partir de laquelle le contrat débute. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "La date d'effet est la date Ã  partir de laquelle les garanties d'un contrat produisent leur effet. C'est la date Ã  partir de laquelle le contrat dÃ©bute. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/effet",
       "keywords": [
         "effet",
@@ -2446,7 +2540,7 @@
     {
       "type": "lexique",
       "title": "EFFRACTION",
-      "content": "La notion d'effraction recouvre le forcement, la dégradation ou la destruction de tout dispositif de fermeture ou de toute espèce de clôture et par extension, l'usage de fausses clés... L'effraction est un des éléments qui entraînent le déclenchement de la garantie vol à la condition que l'assuré puisse en apporter la preuve. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "La notion d'effraction recouvre le forcement, la dÃ©gradation ou la destruction de tout dispositif de fermeture ou de toute espÃ¨ce de clÃ´ture et par extension, l'usage de fausses clÃ©s... L'effraction est un des Ã©lÃ©ments qui entraÃ®nent le dÃ©clenchement de la garantie vol Ã  la condition que l'assurÃ© puisse en apporter la preuve. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/effraction",
       "keywords": [
         "effraction",
@@ -2486,7 +2580,7 @@
     {
       "type": "lexique",
       "title": "EPAVE",
-      "content": "(véhicule épave): lorsque le coût des réparations suite à un sinistre automobile garanti dépasse la valeur du véhicule au jour du sinistre, le véhicule est déclaré épave (VEI = Véhicule Economiquement Irréparable) par l'expert qui plafonne son évaluation à la Valeur à dire d'expert . N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(vÃ©hicule Ã©pave): lorsque le coÃ»t des rÃ©parations suite Ã  un sinistre automobile garanti dÃ©passe la valeur du vÃ©hicule au jour du sinistre, le vÃ©hicule est dÃ©clarÃ© Ã©pave (VEI = VÃ©hicule Economiquement IrrÃ©parable) par l'expert qui plafonne son Ã©valuation Ã  la Valeur Ã  dire d'expert . N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/epave",
       "keywords": [
         "epave",
@@ -2529,7 +2623,7 @@
     {
       "type": "lexique",
       "title": "FOND DE GARANTIE AUTOMOBILE",
-      "content": "Le FGA n'est pas un organisme d'assurance. Il a pour but de dédommager les victimes d'accidents corporels causés par des véhicules terrestres à moteur lorsque l'auteur responsable est inconnu, non assuré ou insolvable. Il ne dispense pas pour autant les responsables des conséquences de leur responsabilité, car ceux-ci doivent rembourser au FGA les sommes avancées pour leur compte. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Le FGA n'est pas un organisme d'assurance. Il a pour but de dÃ©dommager les victimes d'accidents corporels causÃ©s par des vÃ©hicules terrestres Ã  moteur lorsque l'auteur responsable est inconnu, non assurÃ© ou insolvable. Il ne dispense pas pour autant les responsables des consÃ©quences de leur responsabilitÃ©, car ceux-ci doivent rembourser au FGA les sommes avancÃ©es pour leur compte. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/fond-de-garantie-automobile",
       "keywords": [
         "fond",
@@ -2579,7 +2673,7 @@
     {
       "type": "lexique",
       "title": "FRANCHISE",
-      "content": "Part des dommages qui reste à la charge de l'assuré en cas de sinistre. La franchise est contractuellement prévue aux conditions particulières ou générales. Elle s'exprime soit en pourcentage du montant du sinistre, soit en indice (pour les contrats habitation, entreprise...), ou encore en montant fixe. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Part des dommages qui reste Ã  la charge de l'assurÃ© en cas de sinistre. La franchise est contractuellement prÃ©vue aux conditions particuliÃ¨res ou gÃ©nÃ©rales. Elle s'exprime soit en pourcentage du montant du sinistre, soit en indice (pour les contrats habitation, entreprise...), ou encore en montant fixe. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/franchise",
       "keywords": [
         "franchise",
@@ -2621,7 +2715,7 @@
     {
       "type": "lexique",
       "title": "GRATUIT (transport)",
-      "content": "La notion de personnes transportées à titre gratuit est importante en assurance automobile. En effet, si il s'avère, au moment d'un sinistre, que la personne transportée avait payé pour être transportée, l'indemnité peut être réduite, voir supprimée. En revanche, une nuance est acceptée entre la participation occasionnelle aux frais de route (l'essence par exemple) et le véritable transport payant facturé par un particulier. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "La notion de personnes transportÃ©es Ã  titre gratuit est importante en assurance automobile. En effet, si il s'avÃ¨re, au moment d'un sinistre, que la personne transportÃ©e avait payÃ© pour Ãªtre transportÃ©e, l'indemnitÃ© peut Ãªtre rÃ©duite, voir supprimÃ©e. En revanche, une nuance est acceptÃ©e entre la participation occasionnelle aux frais de route (l'essence par exemple) et le vÃ©ritable transport payant facturÃ© par un particulier. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/gratuit-transport",
       "keywords": [
         "gratuit",
@@ -2676,7 +2770,7 @@
     {
       "type": "lexique",
       "title": "IARD",
-      "content": "Incendie, Accidents, Risques Divers: cette abréviation est couramment employée sur les documents qui vous sont adressés, elle désigne une branche, une catégorie d'assurance dommage et , généralement, la branche à laquelle appartient votre contrat: en l'occurrence, la protection des biens. La branche VIE est une autre branche regroupant les contrats de placements, de retraite, de prévoyance et de manière plus générale tous les contrats attachés à la protection de la personne. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Incendie, Accidents, Risques Divers: cette abrÃ©viation est couramment employÃ©e sur les documents qui vous sont adressÃ©s, elle dÃ©signe une branche, une catÃ©gorie d'assurance dommage et , gÃ©nÃ©ralement, la branche Ã  laquelle appartient votre contrat: en l'occurrence, la protection des biens. La branche VIE est une autre branche regroupant les contrats de placements, de retraite, de prÃ©voyance et de maniÃ¨re plus gÃ©nÃ©rale tous les contrats attachÃ©s Ã  la protection de la personne. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/iard",
       "keywords": [
         "iard",
@@ -2731,7 +2825,7 @@
     {
       "type": "lexique",
       "title": "IDA (Convention)",
-      "content": "Indemnisation Directe des Assurés: il s'agit d'une convention signée entre la majorité des compagnies d'assurances qui est destinée à accélérer et simplifier les opérations d'indemnisation. La part de responsabilité incombant à chaque assuré est déterminée à partir du constat amiable. Ainsi, sans se concerter les deux assureurs appliquent le même cas de barème. Cette convention fonctionne lorsque deux véhicules sont impliqués et que le montant des dommages matériels ne dépasse pas 3850 Euros HT (environ 25 000 Frs - Notez que ce plafond est modifié tous les ans) et a pour but d'éviter les discussions sur les partages de responsabilité. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Indemnisation Directe des AssurÃ©s: il s'agit d'une convention signÃ©e entre la majoritÃ© des compagnies d'assurances qui est destinÃ©e Ã  accÃ©lÃ©rer et simplifier les opÃ©rations d'indemnisation. La part de responsabilitÃ© incombant Ã  chaque assurÃ© est dÃ©terminÃ©e Ã  partir du constat amiable. Ainsi, sans se concerter les deux assureurs appliquent le mÃªme cas de barÃ¨me. Cette convention fonctionne lorsque deux vÃ©hicules sont impliquÃ©s et que le montant des dommages matÃ©riels ne dÃ©passe pas 3850 Euros HT (environ 25 000 Frs - Notez que ce plafond est modifiÃ© tous les ans) et a pour but d'Ã©viter les discussions sur les partages de responsabilitÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/ida-convention",
       "keywords": [
         "ida",
@@ -2806,7 +2900,7 @@
     {
       "type": "lexique",
       "title": "INCAPACITE",
-      "content": "Etat d'une personne qui, par suite de maladie ou d'accident, se trouve dans l'impossibilité provisoire ou permanente (si permanente = invalidité) de travailler et/ou d'effectuer certains gestes élémentaires. En droit commun, la réparation signifie que la victime doit être replacée dans la situation qui était la sienne avant l'accident. En cas d'incapacité temporaire, on distingue l'Incapacité Temporaire Totale de travail (ITT) et l'Incapacité Temporaire Partielle de travail (ITP). En cas d'incapacité permanente, on parle d'Incapacité Permanente Partielle (IPP) et d'Incapacité Permanente Totale (IPT) également dénommée invalidité. On parle également d'incapacité fonctionnelle en cas de diminution de la capacité d'une personne, victime d'un accident corporel, à effectuer certains gestes élémentaires : se lever, se coucher, marcher, courir et/ou manipuler des objets.. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Etat d'une personne qui, par suite de maladie ou d'accident, se trouve dans l'impossibilitÃ© provisoire ou permanente (si permanente = invaliditÃ©) de travailler et/ou d'effectuer certains gestes Ã©lÃ©mentaires. En droit commun, la rÃ©paration signifie que la victime doit Ãªtre replacÃ©e dans la situation qui Ã©tait la sienne avant l'accident. En cas d'incapacitÃ© temporaire, on distingue l'IncapacitÃ© Temporaire Totale de travail (ITT) et l'IncapacitÃ© Temporaire Partielle de travail (ITP). En cas d'incapacitÃ© permanente, on parle d'IncapacitÃ© Permanente Partielle (IPP) et d'IncapacitÃ© Permanente Totale (IPT) Ã©galement dÃ©nommÃ©e invaliditÃ©. On parle Ã©galement d'incapacitÃ© fonctionnelle en cas de diminution de la capacitÃ© d'une personne, victime d'un accident corporel, Ã  effectuer certains gestes Ã©lÃ©mentaires : se lever, se coucher, marcher, courir et/ou manipuler des objets.. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/incapacite",
       "keywords": [
         "incapacite",
@@ -2900,7 +2994,7 @@
     {
       "type": "lexique",
       "title": "INCAPACITE TEMPORAIRE (IT)",
-      "content": "Etat du lésé pendant la maladie ou le traumatisme, qui va de l'accident à la consolidation (voir définition). Elle correspond à la période d'indisponibilité pendant laquelle l'assuré ne peut plus exercer son activité professionnelle habituelle ou ses activités régulières s'il ne pratique pas d'activité professionnelle. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Etat du lÃ©sÃ© pendant la maladie ou le traumatisme, qui va de l'accident Ã  la consolidation (voir dÃ©finition). Elle correspond Ã  la pÃ©riode d'indisponibilitÃ© pendant laquelle l'assurÃ© ne peut plus exercer son activitÃ© professionnelle habituelle ou ses activitÃ©s rÃ©guliÃ¨res s'il ne pratique pas d'activitÃ© professionnelle. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/incapacite-temporaire-it",
       "keywords": [
         "incapacite",
@@ -2942,7 +3036,7 @@
     {
       "type": "lexique",
       "title": "INCAPACITE TEMPORAIRE TOTALE (ITT)",
-      "content": "Impossibilité totale physique ou mentale (médicalement constatée) d'exercer temporairement toute activité. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "ImpossibilitÃ© totale physique ou mentale (mÃ©dicalement constatÃ©e) d'exercer temporairement toute activitÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/incapacite-temporaire-totale-itt",
       "keywords": [
         "incapacite",
@@ -2969,7 +3063,7 @@
     {
       "type": "lexique",
       "title": "INDEMNITE JOURNALIERE (I.J)",
-      "content": "Lors d'un arrêt de travail pour incapacité temporaire totale de travail, l'assureur verse à l'assuré une indemnité forfaitaire par jour d'arrêt. Une franchise est le plus souvent retenue pour les incapacités pour maladie. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Lors d'un arrÃªt de travail pour incapacitÃ© temporaire totale de travail, l'assureur verse Ã  l'assurÃ© une indemnitÃ© forfaitaire par jour d'arrÃªt. Une franchise est le plus souvent retenue pour les incapacitÃ©s pour maladie. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/indemnite-journaliere-ij",
       "keywords": [
         "indemnite",
@@ -3004,7 +3098,7 @@
     {
       "type": "lexique",
       "title": "INVALIDITE ABSOLUE ET DEFINITIVE (IAD)",
-      "content": "Selon les critères de la Sécurité Sociale: personne qui, par suite d'atteinte corporelle, accident ou maladie, étant absolument incapable d'exercer une profession quelconque, est dans l'obligation d'avoir recours à une tierce personne pour effectuer les actes ordinaires de la vie. L'IAD est le plus souvent assimilée au décès dans la majorité des contrats. Elle est automatiquement comprise dans la garantie principale. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Selon les critÃ¨res de la SÃ©curitÃ© Sociale: personne qui, par suite d'atteinte corporelle, accident ou maladie, Ã©tant absolument incapable d'exercer une profession quelconque, est dans l'obligation d'avoir recours Ã  une tierce personne pour effectuer les actes ordinaires de la vie. L'IAD est le plus souvent assimilÃ©e au dÃ©cÃ¨s dans la majoritÃ© des contrats. Elle est automatiquement comprise dans la garantie principale. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/invalidite-absolue-et-definitive-iad",
       "keywords": [
         "invalidite",
@@ -3056,7 +3150,7 @@
     {
       "type": "lexique",
       "title": "INVALIDITE PERMANENTE TOTALE (IPT)",
-      "content": "L'assuré est reconnu définitivement incapable de se livrer à la moindre activité professionnelle lui procurant gain ou profit et dont le taux d'incapacité fonctionnelle est égal à 100%. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "L'assurÃ© est reconnu dÃ©finitivement incapable de se livrer Ã  la moindre activitÃ© professionnelle lui procurant gain ou profit et dont le taux d'incapacitÃ© fonctionnelle est Ã©gal Ã  100%. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/invalidite-permanente-totale-ipt",
       "keywords": [
         "invalidite",
@@ -3092,7 +3186,7 @@
     {
       "type": "lexique",
       "title": "JOUISSANCE",
-      "content": "La privatisation de jouissance d'un bien, meuble ou immeuble est assuré dans le cadre des polices d'assurance dommages. La garantie correspond à la valeur d'usage du bien pendant un laps de temps, par exemple pendant 1 ou 2 ans. La privatisation de jouissance d'un service constitue un dommage immatériel. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "La privatisation de jouissance d'un bien, meuble ou immeuble est assurÃ© dans le cadre des polices d'assurance dommages. La garantie correspond Ã  la valeur d'usage du bien pendant un laps de temps, par exemple pendant 1 ou 2 ans. La privatisation de jouissance d'un service constitue un dommage immatÃ©riel. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/jouissance",
       "keywords": [
         "jouissance",
@@ -3132,7 +3226,7 @@
     {
       "type": "lexique",
       "title": "MIXTES (assurances)",
-      "content": "Les assurances mixtes sont la combinaison d'une garantie en cas de vie et d'une protection en cas de décès. En d'autres termes, ce sont à la fois des contrats de prévoyance et des contrats de capitalisation. Ces contrats sont de plus en plus rares, car, aujourd'hui, les assureurs préfèrent aborder séparément les questions de prévoyance et de capitalisation en faisant deux contrats distincts ayant chacun leur spécificité. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Les assurances mixtes sont la combinaison d'une garantie en cas de vie et d'une protection en cas de dÃ©cÃ¨s. En d'autres termes, ce sont Ã  la fois des contrats de prÃ©voyance et des contrats de capitalisation. Ces contrats sont de plus en plus rares, car, aujourd'hui, les assureurs prÃ©fÃ¨rent aborder sÃ©parÃ©ment les questions de prÃ©voyance et de capitalisation en faisant deux contrats distincts ayant chacun leur spÃ©cificitÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/mixtes-assurances",
       "keywords": [
         "mixtes",
@@ -3187,7 +3281,7 @@
     {
       "type": "lexique",
       "title": "NOTE DE COUVERTURE",
-      "content": "Document délivré par votre assureur en attendant l'établissement du contrat définitif. La note de couverture vaut garantie, même si le contrat n'est pas encore signé (généralement elle est valable un mois). N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Document dÃ©livrÃ© par votre assureur en attendant l'Ã©tablissement du contrat dÃ©finitif. La note de couverture vaut garantie, mÃªme si le contrat n'est pas encore signÃ© (gÃ©nÃ©ralement elle est valable un mois). N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/note-de-couverture",
       "keywords": [
         "note",
@@ -3222,7 +3316,7 @@
     {
       "type": "lexique",
       "title": "NULLITE",
-      "content": "C'est la sanction qui prive l'assuré des garanties un contrat. Elle est appliquée s’il s'avère que l'assuré a volontairement fait une fausse déclaration sur ses antécédents ou sa situation personnelle. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est la sanction qui prive l'assurÃ© des garanties un contrat. Elle est appliquÃ©e sâil s'avÃ¨re que l'assurÃ© a volontairement fait une fausse dÃ©claration sur ses antÃ©cÃ©dents ou sa situation personnelle. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/nullite",
       "keywords": [
         "nullite",
@@ -3253,7 +3347,7 @@
     {
       "type": "lexique",
       "title": "PERTE D'EXPLOITATION",
-      "content": "(Multirisque professionnelle) à la suite d'un sinistre, grâce à la couverture de votre contrat d'assurance, les murs de l'entreprise vont être reconstruits, les marchandises remplacées. Mais pendant la reconstruction le chiffre d'affaires a baissé compte tenu des conditions d'exploitation difficiles. Or les charges fixes de votre entreprise sont demeurées: loyers, impôts et taxes, emprunts... L'assurance Perte d'exploitation est destinée à replacer votre affaire dans la situation financière qui aurait été la sienne si le sinistre n'avait pas eu lieu. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(Multirisque professionnelle) Ã  la suite d'un sinistre, grÃ¢ce Ã  la couverture de votre contrat d'assurance, les murs de l'entreprise vont Ãªtre reconstruits, les marchandises remplacÃ©es. Mais pendant la reconstruction le chiffre d'affaires a baissÃ© compte tenu des conditions d'exploitation difficiles. Or les charges fixes de votre entreprise sont demeurÃ©es: loyers, impÃ´ts et taxes, emprunts... L'assurance Perte d'exploitation est destinÃ©e Ã  replacer votre affaire dans la situation financiÃ¨re qui aurait Ã©tÃ© la sienne si le sinistre n'avait pas eu lieu. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/perte-dexploitation",
       "keywords": [
         "perte",
@@ -3320,7 +3414,7 @@
     {
       "type": "lexique",
       "title": "PERTE INDIRECTES",
-      "content": "A la suite d'un sinistre, vous pouvez avoir à faire face à des frais supplémentaires très divers (Frais de transport, restaurant, courrier...). L'objet de cette garantie est de vous dédommager de certains frais exceptionnels consécutifs à un sinistre pris en charge par l'assureur. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "A la suite d'un sinistre, vous pouvez avoir Ã  faire face Ã  des frais supplÃ©mentaires trÃ¨s divers (Frais de transport, restaurant, courrier...). L'objet de cette garantie est de vous dÃ©dommager de certains frais exceptionnels consÃ©cutifs Ã  un sinistre pris en charge par l'assureur. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/perte-indirectes",
       "keywords": [
         "perte",
@@ -3360,7 +3454,7 @@
     {
       "type": "lexique",
       "title": "PPRIME",
-      "content": "Somme à payer pour bénéficier des garanties de votre contrat N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Somme Ã  payer pour bÃ©nÃ©ficier des garanties de votre contrat N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/pprime",
       "keywords": [
         "pprime",
@@ -3381,7 +3475,7 @@
     {
       "type": "lexique",
       "title": "PRIME PERIODIQUE",
-      "content": "Cette catégorie concerne plutôt les contrats d'épargne-placement pour lesquels un échéancier des primes à payer a été établi fixant ainsi la périodicité des prélèvements (mensuels, trimestriels, semestriels ou annuels) N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Cette catÃ©gorie concerne plutÃ´t les contrats d'Ã©pargne-placement pour lesquels un Ã©chÃ©ancier des primes Ã  payer a Ã©tÃ© Ã©tabli fixant ainsi la pÃ©riodicitÃ© des prÃ©lÃ¨vements (mensuels, trimestriels, semestriels ou annuels) N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/prime-periodique",
       "keywords": [
         "prime",
@@ -3418,7 +3512,7 @@
     {
       "type": "lexique",
       "title": "PRIME UNIQUE",
-      "content": "A la différence de la prime périodique qui engage régulièrement le souscripteur à verser une somme à date fixe, la prime unique se caractérise par un versement unique effectué à la souscription du contrat. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "A la diffÃ©rence de la prime pÃ©riodique qui engage rÃ©guliÃ¨rement le souscripteur Ã  verser une somme Ã  date fixe, la prime unique se caractÃ©rise par un versement unique effectuÃ© Ã  la souscription du contrat. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/prime-unique",
       "keywords": [
         "prime",
@@ -3452,7 +3546,7 @@
     {
       "type": "lexique",
       "title": "PRINCIPALE",
-      "content": "(Date d'échéance principale): c'est la date anniversaire de votre contrat. Même si vous payez votre cotisation trimestriellement, mensuellement, ou semestriellement, une seule de vos échéances est principale. C'est la seule date qui fait référence pour le respect du préavis de résiliation. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(Date d'Ã©chÃ©ance principale): c'est la date anniversaire de votre contrat. MÃªme si vous payez votre cotisation trimestriellement, mensuellement, ou semestriellement, une seule de vos Ã©chÃ©ances est principale. C'est la seule date qui fait rÃ©fÃ©rence pour le respect du prÃ©avis de rÃ©siliation. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/principale",
       "keywords": [
         "principale",
@@ -3491,8 +3585,8 @@
     },
     {
       "type": "lexique",
-      "title": "PROPORTIONNELLE (Règle)",
-      "content": "Le code des assurances prévoit une réduction des indemnités en cas de sinistre si il s'avère, qu'il y a une insuffisance dans les capitaux assurés (règle proportionnelle de capitaux), ou si les déclarations faîtes à la souscription ne sont pas conformes à la réalité du risque (règle proportionnelle de prime). N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "title": "PROPORTIONNELLE (RÃ¨gle)",
+      "content": "Le code des assurances prÃ©voit une rÃ©duction des indemnitÃ©s en cas de sinistre si il s'avÃ¨re, qu'il y a une insuffisance dans les capitaux assurÃ©s (rÃ¨gle proportionnelle de capitaux), ou si les dÃ©clarations faÃ®tes Ã  la souscription ne sont pas conformes Ã  la rÃ©alitÃ© du risque (rÃ¨gle proportionnelle de prime). N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/proportionnelle-regle",
       "keywords": [
         "proportionnelle",
@@ -3532,7 +3626,7 @@
     {
       "type": "lexique",
       "title": "PRORATA TEMPORIS",
-      "content": "C'est le calcul qui est fait lorsque, par exemple, votre contrat est résilié avant son échéance : une portion de la prime vous est due sur la période pendant laquelle vous n'avez pas été assuré. Cette portion de la prime qui n'a pas donné lieu à garantie doit vous être remboursée par votre assureur en l'absence de sinistre en cours ou de contentieux sur vos quittances. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le calcul qui est fait lorsque, par exemple, votre contrat est rÃ©siliÃ© avant son Ã©chÃ©ance : une portion de la prime vous est due sur la pÃ©riode pendant laquelle vous n'avez pas Ã©tÃ© assurÃ©. Cette portion de la prime qui n'a pas donnÃ© lieu Ã  garantie doit vous Ãªtre remboursÃ©e par votre assureur en l'absence de sinistre en cours ou de contentieux sur vos quittances. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/prorata-temporis",
       "keywords": [
         "prorata",
@@ -3584,7 +3678,7 @@
     {
       "type": "lexique",
       "title": "QUITTANCE",
-      "content": "Reçu délivré par l'assureur prouvant que la prime a bien été payée. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "ReÃ§u dÃ©livrÃ© par l'assureur prouvant que la prime a bien Ã©tÃ© payÃ©e. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/quittance",
       "keywords": [
         "quittance",
@@ -3606,7 +3700,7 @@
     {
       "type": "lexique",
       "title": "RESILIATION",
-      "content": "La durée de l'assurance est fixée au contrat. Si cette durée excède une année, et sous réserve des dispositions relatives aux assurances sur la vie, l'assuré a le droit de résilier le contrat tous les ans à l'échéance du contrat en prévenant l'assureur au moins deux mois avant la date d'échéance dans l'une des formes de résiliation indiquée au dernier alinéa du présent article. Ce droit de résiliation doit être mentionné dans chaque contrat. A condition qu'il est fait mention au contrat, l'assureur dispose également, dans les mêmes conditions de délai et de",
+      "content": "La durÃ©e de l'assurance est fixÃ©e au contrat. Si cette durÃ©e excÃ¨de une annÃ©e, et sous rÃ©serve des dispositions relatives aux assurances sur la vie, l'assurÃ© a le droit de rÃ©silier le contrat tous les ans Ã  l'Ã©chÃ©ance du contrat en prÃ©venant l'assureur au moins deux mois avant la date d'Ã©chÃ©ance dans l'une des formes de rÃ©siliation indiquÃ©e au dernier alinÃ©a du prÃ©sent article. Ce droit de rÃ©siliation doit Ãªtre mentionnÃ© dans chaque contrat. A condition qu'il est fait mention au contrat, l'assureur dispose Ã©galement, dans les mÃªmes conditions de dÃ©lai et de",
       "url": "https://www.comar.tn/lexique/resiliation",
       "keywords": [
         "resiliation",
@@ -3669,7 +3763,7 @@
     {
       "type": "lexique",
       "title": "RESPONSABILITE CIVILE",
-      "content": "Est civilement responsable, la personne physique (vous) ou morale (une entreprise par exemple) obligée, par la règle de droit, de réparer tout ou partie d'un dommage qu'elle a causé à un tiers. Votre contrat habitation couvre votre responsabilité civile vie privée celle de votre conjoint, de vos enfants, mais aussi celle des animaux dont vous êtes responsable pour les dommages qu'ils pourraient causer à des tiers. Pour l'automobile, la responsabilité civile (ce que l'on appelle \"le tiers\") est obligatoire. Vous êtes obligé de vous assurer pour les dommages que vous pourriez causer à des tiers. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Est civilement responsable, la personne physique (vous) ou morale (une entreprise par exemple) obligÃ©e, par la rÃ¨gle de droit, de rÃ©parer tout ou partie d'un dommage qu'elle a causÃ© Ã  un tiers. Votre contrat habitation couvre votre responsabilitÃ© civile vie privÃ©e celle de votre conjoint, de vos enfants, mais aussi celle des animaux dont vous Ãªtes responsable pour les dommages qu'ils pourraient causer Ã  des tiers. Pour l'automobile, la responsabilitÃ© civile (ce que l'on appelle \"le tiers\") est obligatoire. Vous Ãªtes obligÃ© de vous assurer pour les dommages que vous pourriez causer Ã  des tiers. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/responsabilite-civile",
       "keywords": [
         "responsabilite",
@@ -3736,7 +3830,7 @@
     {
       "type": "lexique",
       "title": "RESPONSABILITE PENALE",
-      "content": "Cette responsabilité résulte de la violation d'une règle de conduite écrite (imposée par la société) qui a un but répressif et qui vise à maintenir l'ordre public. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Cette responsabilitÃ© rÃ©sulte de la violation d'une rÃ¨gle de conduite Ã©crite (imposÃ©e par la sociÃ©tÃ©) qui a un but rÃ©pressif et qui vise Ã  maintenir l'ordre public. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/responsabilite-penale",
       "keywords": [
         "responsabilite",
@@ -3767,7 +3861,7 @@
     {
       "type": "lexique",
       "title": "RISQUE",
-      "content": "Evénement incertain contre la réalisation duquel on s'assure. Par extension, les assureurs appellent risque, le bien sur lequel porte l'assurance. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "EvÃ©nement incertain contre la rÃ©alisation duquel on s'assure. Par extension, les assureurs appellent risque, le bien sur lequel porte l'assurance. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/risque",
       "keywords": [
         "risque",
@@ -3795,7 +3889,7 @@
     {
       "type": "lexique",
       "title": "SINISTRE",
-      "content": "C'est le risque qui se réalise: l'incendie, le vol, l'accident... (Voir aussi déclaration). C'est pour vous prémunir de leurs conséquences que vous souscrivez une assurance. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le risque qui se rÃ©alise: l'incendie, le vol, l'accident... (Voir aussi dÃ©claration). C'est pour vous prÃ©munir de leurs consÃ©quences que vous souscrivez une assurance. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/sinistre",
       "keywords": [
         "sinistre",
@@ -3821,7 +3915,7 @@
     {
       "type": "lexique",
       "title": "SOUSCRIPTEUR (ou preneur d'assurance)",
-      "content": "Personne physique (vous) ou morale (une entreprise) qui, en signant le contrat, adhère pour elle-même et pour les assurés aux Conditions Générales et Particulières de ce contrat. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Personne physique (vous) ou morale (une entreprise) qui, en signant le contrat, adhÃ¨re pour elle-mÃªme et pour les assurÃ©s aux Conditions GÃ©nÃ©rales et ParticuliÃ¨res de ce contrat. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/souscripteur-ou-preneur-dassurance",
       "keywords": [
         "souscripteur",
@@ -3852,7 +3946,7 @@
     {
       "type": "lexique",
       "title": "SUBROGATION",
-      "content": "Lorsque le dommage subi par l'assuré est le fait d'un tiers, l'assureur indemnise son assuré et peut exercer un recours contre le tiers responsable pour son propre compte à concurrence du montant de l'indemnité qu'il a versé. On dit que l'assureur est \"subrogé\" dans les droits et actions de l'assuré contre le tiers responsable. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Lorsque le dommage subi par l'assurÃ© est le fait d'un tiers, l'assureur indemnise son assurÃ© et peut exercer un recours contre le tiers responsable pour son propre compte Ã  concurrence du montant de l'indemnitÃ© qu'il a versÃ©. On dit que l'assureur est \"subrogÃ©\" dans les droits et actions de l'assurÃ© contre le tiers responsable. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/subrogation",
       "keywords": [
         "subrogation",
@@ -3899,7 +3993,7 @@
     {
       "type": "lexique",
       "title": "TACITE RECONDUCTION",
-      "content": "La majorité des contrats prévoit cette clause qui vous permet de voir renouveler, chaque année, vos contrats sans que vous ayez à en faire expressément la demande. En revanche, n'oubliez pas qu'il faudra faire une demande de résiliation, pour mettre fin à votre contrat. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "La majoritÃ© des contrats prÃ©voit cette clause qui vous permet de voir renouveler, chaque annÃ©e, vos contrats sans que vous ayez Ã  en faire expressÃ©ment la demande. En revanche, n'oubliez pas qu'il faudra faire une demande de rÃ©siliation, pour mettre fin Ã  votre contrat. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/tacite-reconduction",
       "keywords": [
         "tacite",
@@ -3939,7 +4033,7 @@
     {
       "type": "lexique",
       "title": "VALEUR A DIRE D'EXPERT",
-      "content": "(automobile) C'est la valeur calculée par l'expert selon des techniques d'évaluation établies et certifiées. Par exemple pour un véhicule, il s'agit de la technique d'évaluation du conseil national de l'Expertise (Bilan technique) : elle est déterminée au prix catalogue au jour du sinistre moins un coefficient de dépréciation (Nombre de mois d'utilisation) - correctif kilométrage, état du véhicule et marché local. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(automobile) C'est la valeur calculÃ©e par l'expert selon des techniques d'Ã©valuation Ã©tablies et certifiÃ©es. Par exemple pour un vÃ©hicule, il s'agit de la technique d'Ã©valuation du conseil national de l'Expertise (Bilan technique) : elle est dÃ©terminÃ©e au prix catalogue au jour du sinistre moins un coefficient de dÃ©prÃ©ciation (Nombre de mois d'utilisation) - correctif kilomÃ©trage, Ã©tat du vÃ©hicule et marchÃ© local. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-dire-dexpert",
       "keywords": [
         "valeur",
@@ -3991,7 +4085,7 @@
     {
       "type": "lexique",
       "title": "VALEUR A NEUF",
-      "content": "(en habitation) La valeur d'usage ne permet pas toujours à l'assuré de reconstruire sans supporter personnellement la charge financière correspondant à la dépréciation (vétusté) du bien endommagé. La majorité des contrats habitations (à vérifier sur votre contrat) prévoient une clause \"Valeur à neuf\" afin que vous soyez indemnisé en valeur de reconstruction au prix du neuf au jour du sinistre. (Attention, cette clause ne s'applique pas à toutes les garanties). N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(en habitation) La valeur d'usage ne permet pas toujours Ã  l'assurÃ© de reconstruire sans supporter personnellement la charge financiÃ¨re correspondant Ã  la dÃ©prÃ©ciation (vÃ©tustÃ©) du bien endommagÃ©. La majoritÃ© des contrats habitations (Ã  vÃ©rifier sur votre contrat) prÃ©voient une clause \"Valeur Ã  neuf\" afin que vous soyez indemnisÃ© en valeur de reconstruction au prix du neuf au jour du sinistre. (Attention, cette clause ne s'applique pas Ã  toutes les garanties). N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-neuf",
       "keywords": [
         "valeur",
@@ -4047,7 +4141,7 @@
     {
       "type": "lexique",
       "title": "VALEUR AGREEE",
-      "content": "C'est la valeur déterminée contractuellement par un expert. Dans le cadre d'un contrat habitation, et au delà d'un certain capital mobilier, il est intéressant pour l'assuré de faire réaliser une expertise par un expert agréé par sa compagnie d'assurances. En effet, les sommes dûes en cas de sinistre seront celles prévues au contrat, expertise à l'appui. A la différence d'un contrat habitation classique dans lequel la valeur assurée fait l'objet de l'application d'une vétusté. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est la valeur dÃ©terminÃ©e contractuellement par un expert. Dans le cadre d'un contrat habitation, et au delÃ  d'un certain capital mobilier, il est intÃ©ressant pour l'assurÃ© de faire rÃ©aliser une expertise par un expert agrÃ©Ã© par sa compagnie d'assurances. En effet, les sommes dÃ»es en cas de sinistre seront celles prÃ©vues au contrat, expertise Ã  l'appui. A la diffÃ©rence d'un contrat habitation classique dans lequel la valeur assurÃ©e fait l'objet de l'application d'une vÃ©tustÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-agreee",
       "keywords": [
         "valeur",
@@ -4104,7 +4198,7 @@
     {
       "type": "lexique",
       "title": "VALEUR D'USAGE",
-      "content": "(pour du mobilier): C'est la valeur de remplacement du bien au jour du sinistre, vétusté déduite N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "(pour du mobilier): C'est la valeur de remplacement du bien au jour du sinistre, vÃ©tustÃ© dÃ©duite N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-dusage",
       "keywords": [
         "valeur",
@@ -4127,7 +4221,7 @@
     {
       "type": "lexique",
       "title": "VALEUR DE REMPLACEMENT",
-      "content": "C'est le montant, éventuellement corrigé du taux d'évolution du modèle, qui est nécessaire pour l'achat d'un véhicule de même caractéristique (au jour du sinistre). N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le montant, Ã©ventuellement corrigÃ© du taux d'Ã©volution du modÃ¨le, qui est nÃ©cessaire pour l'achat d'un vÃ©hicule de mÃªme caractÃ©ristique (au jour du sinistre). N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-de-remplacement",
       "keywords": [
         "valeur",
@@ -4156,7 +4250,7 @@
     {
       "type": "lexique",
       "title": "VALEUR VENALE",
-      "content": "C'est le prix auquel le propriétaire aurait pu vendre le véhicule si l'accident ne s'était pas produit. Elle est déterminée selon l'Argus et les frais de remise en état éventuels. C'est la valeur à neuf moins la vétusté. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est le prix auquel le propriÃ©taire aurait pu vendre le vÃ©hicule si l'accident ne s'Ã©tait pas produit. Elle est dÃ©terminÃ©e selon l'Argus et les frais de remise en Ã©tat Ã©ventuels. C'est la valeur Ã  neuf moins la vÃ©tustÃ©. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/valeur-venale",
       "keywords": [
         "valeur",
@@ -4191,7 +4285,7 @@
     {
       "type": "lexique",
       "title": "VEHICULE TERRESTRE A MOTEUR",
-      "content": "Tout véhicule terrestre à moteur est soumis à l'obligation d'assurance. Il est donc essentiel d'en connaître la définition: il s'agit de \"tout engin destiné au transport de personnes ou de choses circulant sur le sol mû par une force motrice quelconque\". N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "Tout vÃ©hicule terrestre Ã  moteur est soumis Ã  l'obligation d'assurance. Il est donc essentiel d'en connaÃ®tre la dÃ©finition: il s'agit de \"tout engin destinÃ© au transport de personnes ou de choses circulant sur le sol mÃ» par une force motrice quelconque\". N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/vehicule-terrestre-moteur",
       "keywords": [
         "vehicule",
@@ -4228,7 +4322,7 @@
     {
       "type": "lexique",
       "title": "VETUSTE",
-      "content": "C'est la dépréciation d'un bien. C'est un abattement contractuel qui est appliqué sur votre indemnité en fonction de l'âge, de l'état, du bien sinistré. Elle est soit, fixée à dire d'expert, soit, appliquée selon les termes de votre contrat qui peut prévoir une clause adaptée. N'hésitez pas à contacter nos conseillers CONTACTEZ-NOUS",
+      "content": "C'est la dÃ©prÃ©ciation d'un bien. C'est un abattement contractuel qui est appliquÃ© sur votre indemnitÃ© en fonction de l'Ã¢ge, de l'Ã©tat, du bien sinistrÃ©. Elle est soit, fixÃ©e Ã  dire d'expert, soit, appliquÃ©e selon les termes de votre contrat qui peut prÃ©voir une clause adaptÃ©e. N'hÃ©sitez pas Ã  contacter nos conseillers CONTACTEZ-NOUS",
       "url": "https://www.comar.tn/lexique/vetuste",
       "keywords": [
         "vetuste",
@@ -4276,7 +4370,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4299,7 +4393,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4320,7 +4414,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4341,7 +4435,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4364,7 +4458,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4386,7 +4480,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4407,7 +4501,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4428,7 +4522,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4449,7 +4543,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4472,7 +4566,7 @@
     },
     {
       "type": "document",
-      "title": "Voir les détails",
+      "title": "Voir les dÃ©tails",
       "content": "",
       "url": "",
       "keywords": [
@@ -4483,7 +4577,7 @@
     {
       "type": "contact",
       "title": "Contact COMAR",
-      "content": "COMAR Avenue Habib Bourguiba 1001 Tunis R.P | Tél : (216) 71 340 899 / Service client : 82 100 001 / Fax : (216) 71 344 778 / Email : contact@comar.tn",
+      "content": "COMAR Avenue Habib Bourguiba 1001 Tunis R.P | TÃ©l : (216) 71 340 899 / Service client : 82 100 001 / Fax : (216) 71 344 778 / Email : contact@comar.tn",
       "url": "https://www.comar.tn",
       "keywords": [
         "comar",
